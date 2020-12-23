@@ -58,7 +58,7 @@ static int set_bl(float in_rec_len);
 static bool return_check(const char* tag, RSA_API::ReturnStatus rs)
 {
 	bool pass = (rs == RSA_API::noError);
-	
+
 	RSA_API_DLL const char* GetErrorString(RSA_API::ReturnStatus status);
 	if (!pass || g_return_check_verbosity)
 	{
@@ -73,7 +73,7 @@ static bool search_and_connect(int dev_sel, bool do_reset)
 {
 	RSA_API::ReturnStatus rs;
 
-	printf("\nSearching for Devices... ");
+	printf("\nSearching for Devices... 111");
 	int num_dev;
 	int* dev_id;
 	const char** dev_sn;
@@ -252,8 +252,8 @@ static int get_iq_output(gr_complex *iq_block, int block_len_req)
 		for (int i=0; i < block_len_req; i++)
 		{
 			data_val = queue_iq.front();
-			iq_block[i].real() = data_val.i;
-			iq_block[i].imag() = data_val.q;
+			iq_block[i].real(data_val.i);
+			iq_block[i].imag(data_val.q);
 			queue_iq.pop();
 		}
 	}

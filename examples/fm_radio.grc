@@ -1,15 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.7.8'?>
+<?grc format='1' created='3.7.11'?>
 <flow_graph>
   <timestamp>Mon Mar 20 16:32:35 2017</timestamp>
   <block>
     <key>options</key>
     <param>
       <key>author</key>
-      <value></value>
-    </param>
-    <param>
-      <key>alias</key>
       <value></value>
     </param>
     <param>
@@ -45,6 +41,10 @@
       <value>wx_gui</value>
     </param>
     <param>
+      <key>hier_block_src_path</key>
+      <value>.:</value>
+    </param>
+    <param>
       <key>id</key>
       <value>top_block</value>
     </param>
@@ -53,8 +53,16 @@
       <value>0</value>
     </param>
     <param>
+      <key>qt_qss_theme</key>
+      <value></value>
+    </param>
+    <param>
       <key>realtime_scheduling</key>
       <value></value>
+    </param>
+    <param>
+      <key>run_command</key>
+      <value>{python} -u {filename}</value>
     </param>
     <param>
       <key>run_options</key>
@@ -172,11 +180,11 @@
     </param>
     <param>
       <key>max</key>
-      <value>1e10</value>
+      <value>120e6</value>
     </param>
     <param>
       <key>min</key>
-      <value>3</value>
+      <value>80e6</value>
     </param>
     <param>
       <key>notebook</key>
@@ -348,7 +356,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>7e6</value>
+      <value>3.50e6</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -376,11 +384,11 @@
     </param>
     <param>
       <key>max</key>
-      <value>20e8</value>
+      <value>5e6</value>
     </param>
     <param>
       <key>min</key>
-      <value>0</value>
+      <value>1e6</value>
     </param>
     <param>
       <key>notebook</key>
@@ -407,7 +415,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>1.7e3</value>
+      <value>10e3</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -435,7 +443,7 @@
     </param>
     <param>
       <key>max</key>
-      <value>1e8</value>
+      <value>5e6</value>
     </param>
     <param>
       <key>min</key>
@@ -517,7 +525,7 @@
     <key>analog_wfm_rcv</key>
     <param>
       <key>audio_decimation</key>
-      <value>15</value>
+      <value>1</value>
     </param>
     <param>
       <key>alias</key>
@@ -537,7 +545,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(576, 339)</value>
+      <value>(456, 348)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -557,54 +565,7 @@
     </param>
     <param>
       <key>quad_rate</key>
-      <value>705e3</value>
-    </param>
-  </block>
-  <block>
-    <key>audio_sink</key>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>device_name</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(624, 251)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>audio_sink_0</value>
-    </param>
-    <param>
-      <key>num_inputs</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>ok_to_block</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>44100</value>
+      <value>233e3</value>
     </param>
   </block>
   <block>
@@ -631,7 +592,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(776, 347)</value>
+      <value>(776, 380)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -678,7 +639,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(264, 195)</value>
+      <value>(280, 244)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -714,7 +675,11 @@
     </param>
   </block>
   <block>
-    <key>blocks_throttle</key>
+    <key>blocks_wavfile_sink</key>
+    <param>
+      <key>bits_per_sample</key>
+      <value>8</value>
+    </param>
     <param>
       <key>alias</key>
       <value></value>
@@ -732,8 +697,12 @@
       <value>True</value>
     </param>
     <param>
+      <key>file</key>
+      <value>sample.wav</value>
+    </param>
+    <param>
       <key>_coordinate</key>
-      <value>(448, 251)</value>
+      <value>(944, 212)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -741,31 +710,15 @@
     </param>
     <param>
       <key>id</key>
-      <value>blocks_throttle_1</value>
+      <value>blocks_wavfile_sink_0</value>
     </param>
     <param>
-      <key>ignoretag</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>samples_per_second</key>
-      <value>44.1e3</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>vlen</key>
+      <key>nchan</key>
       <value>1</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>44100</value>
     </param>
   </block>
   <block>
@@ -792,7 +745,7 @@
     </param>
     <param>
       <key>decim</key>
-      <value>20</value>
+      <value>int(samp_rate/233000)</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -804,7 +757,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(208, 299)</value>
+      <value>(208, 332)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -812,7 +765,7 @@
     </param>
     <param>
       <key>gain</key>
-      <value>1</value>
+      <value>4</value>
     </param>
     <param>
       <key>id</key>
@@ -859,7 +812,7 @@
     </param>
     <param>
       <key>decim</key>
-      <value>500</value>
+      <value>2330</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -871,7 +824,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(392, 323)</value>
+      <value>(472, 444)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -883,7 +836,7 @@
     </param>
     <param>
       <key>interp</key>
-      <value>1000</value>
+      <value>441</value>
     </param>
     <param>
       <key>maxoutbuf</key>
@@ -899,7 +852,110 @@
     </param>
     <param>
       <key>type</key>
-      <value>ccc</value>
+      <value>fff</value>
+    </param>
+  </block>
+  <block>
+    <key>wxgui_fftsink2</key>
+    <param>
+      <key>avg_alpha</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>baseband_freq</key>
+      <value>91.5e6</value>
+    </param>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>fft_size</key>
+      <value>1024</value>
+    </param>
+    <param>
+      <key>freqvar</key>
+      <value>None</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(440, 124)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>wxgui_fftsink2_0</value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value></value>
+    </param>
+    <param>
+      <key>peak_hold</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>ref_level</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>ref_scale</key>
+      <value>2.0</value>
+    </param>
+    <param>
+      <key>fft_rate</key>
+      <value>15</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>Sample_Bandpass</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>win</key>
+      <value>None</value>
+    </param>
+    <param>
+      <key>y_divs</key>
+      <value>10</value>
+    </param>
+    <param>
+      <key>y_per_div</key>
+      <value>10</value>
     </param>
   </block>
   <connection>
@@ -909,14 +965,20 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
+    <source_block_id>TekRSA_iq_stream_0_0</source_block_id>
+    <sink_block_id>wxgui_fftsink2_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
     <source_block_id>analog_wfm_rcv_0</source_block_id>
-    <sink_block_id>blocks_multiply_const_vxx_0</sink_block_id>
+    <sink_block_id>rational_resampler_xxx_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>blocks_multiply_const_vxx_0</source_block_id>
-    <sink_block_id>blocks_throttle_1</sink_block_id>
+    <sink_block_id>blocks_wavfile_sink_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
@@ -927,20 +989,14 @@
     <sink_key>0</sink_key>
   </connection>
   <connection>
-    <source_block_id>blocks_throttle_1</source_block_id>
-    <sink_block_id>audio_sink_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
     <source_block_id>low_pass_filter_0</source_block_id>
-    <sink_block_id>rational_resampler_xxx_0</sink_block_id>
+    <sink_block_id>analog_wfm_rcv_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
   <connection>
     <source_block_id>rational_resampler_xxx_0</source_block_id>
-    <sink_block_id>analog_wfm_rcv_0</sink_block_id>
+    <sink_block_id>blocks_multiply_const_vxx_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>

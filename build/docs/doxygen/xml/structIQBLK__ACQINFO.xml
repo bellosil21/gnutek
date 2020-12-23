@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structIQBLK__ACQINFO" kind="struct" language="C++" prot="public">
+    <compoundname>IQBLK_ACQINFO</compoundname>
+    <includes refid="RSA__API_8h" local="no">RSA_API.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structIQBLK__ACQINFO_1a81e2d4f12e00d1e8c008188b55b1a676" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t IQBLK_ACQINFO::sample0Timestamp</definition>
+        <argsstring></argsstring>
+        <name>sample0Timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="527" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="527" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIQBLK__ACQINFO_1a38727d3f856cf3dc76b4c160139b15e1" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t IQBLK_ACQINFO::triggerSampleIndex</definition>
+        <argsstring></argsstring>
+        <name>triggerSampleIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="528" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="528" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIQBLK__ACQINFO_1a1ac3a1294c1539e65a40c766d426e3a3" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t IQBLK_ACQINFO::triggerTimestamp</definition>
+        <argsstring></argsstring>
+        <name>triggerTimestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="529" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIQBLK__ACQINFO_1af52723f33cabf0d76094f5a87865813d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t IQBLK_ACQINFO::acqStatus</definition>
+        <argsstring></argsstring>
+        <name>acqStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="530" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="530" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="526" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="525" bodyend="531"/>
+    <listofallmembers>
+      <member refid="structIQBLK__ACQINFO_1af52723f33cabf0d76094f5a87865813d" prot="public" virt="non-virtual"><scope>IQBLK_ACQINFO</scope><name>acqStatus</name></member>
+      <member refid="structIQBLK__ACQINFO_1a81e2d4f12e00d1e8c008188b55b1a676" prot="public" virt="non-virtual"><scope>IQBLK_ACQINFO</scope><name>sample0Timestamp</name></member>
+      <member refid="structIQBLK__ACQINFO_1a38727d3f856cf3dc76b4c160139b15e1" prot="public" virt="non-virtual"><scope>IQBLK_ACQINFO</scope><name>triggerSampleIndex</name></member>
+      <member refid="structIQBLK__ACQINFO_1a1ac3a1294c1539e65a40c766d426e3a3" prot="public" virt="non-virtual"><scope>IQBLK_ACQINFO</scope><name>triggerTimestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

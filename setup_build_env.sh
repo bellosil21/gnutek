@@ -26,19 +26,20 @@ apt-get install -y \
 # Setup the RSA API
 echo "Setting up RSA API"
 
-wget https://github.com/tektronix/USB-RSA-gnuradio-module-WIP/releases/download/v0.1.2-alpha/RSA_API-0.13.211.tar.gz
-mkdir -p "${script_dir}/RSA_API-0.13.211"
-tar xvzf "${script_dir}/RSA_API-0.13.211.tar.gz" -C "${script_dir}/RSA_API-0.13.211"
+#wget https://github.com/tektronix/USB-RSA-gnuradio-module-WIP/releases/download/v0.1.2-alpha/RSA_API-0.13.211.tar.gz
+mkdir -p "${script_dir}/RSA_API-1.0.0014"
+tar xvzf "${script_dir}/RSA_API-1.0.0014.tar.gz" -C "${script_dir}/RSA_API-1.0.0014"
 
 mkdir -p /opt/include
-cp "${script_dir}/RSA_API-0.13.211/RSA_API.h" /opt/include
+cp "${script_dir}/RSA_API-1.0.0014/RSA_API.h" /opt/include
 chmod -R 777 /opt/include
 
 mkdir -p /opt/lib
-cp "${script_dir}/RSA_API-0.13.211/libRSA_API.so" /opt/lib
+cp "${script_dir}/RSA_API-1.0.0014/libRSA_API.so" /opt/lib
+cp "${script_dir}/RSA_API-1.0.0014/libcyusb_shared.so" /opt/lib
 chmod -R 777 /opt/lib
 
-cp "${script_dir}/RSA_API-0.13.211/cyusb.conf" /etc
+cp "${script_dir}/RSA_API-1.0.0014/cyusb.conf" /etc
 
 # Setup the plugdev group
 if ! getent group plugdev > /dev/null 2>&1
@@ -55,7 +56,7 @@ udevadm trigger --subsystem-match="usb"
 # Build the RSA Blocks
 echo "Building the RSA Blocks"
 OLDPWD="$(pwd)"
-mkdir "${script_dir}/build"
+mkdir -p "${script_dir}/build"
 cd "${script_dir}/build"
 cmake ..
 make

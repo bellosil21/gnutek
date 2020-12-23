@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structFREQREF__USER__INFO" kind="struct" language="C++" prot="public">
+    <compoundname>FREQREF_USER_INFO</compoundname>
+    <includes refid="RSA__API_8h" local="no">RSA_API.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structFREQREF__USER__INFO_1a58761e33411b090095ac1da7945b0f3e" prot="public" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool FREQREF_USER_INFO::isvalid</definition>
+        <argsstring></argsstring>
+        <name>isvalid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="408" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFREQREF__USER__INFO_1aade43d515eaf0293c830aa7a87598303" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int FREQREF_USER_INFO::dacValue</definition>
+        <argsstring></argsstring>
+        <name>dacValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="409" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFREQREF__USER__INFO_1a987c42f41ef4e1c5f3d5e9273691a866" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char FREQREF_USER_INFO::datetime[DEVINFO_MAX_STRLEN]</definition>
+        <argsstring>[DEVINFO_MAX_STRLEN]</argsstring>
+        <name>datetime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="410" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFREQREF__USER__INFO_1ac996049a7a80d10a7edd6198b41ee6f0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double FREQREF_USER_INFO::temperature</definition>
+        <argsstring></argsstring>
+        <name>temperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="411" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="407" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="406" bodyend="412"/>
+    <listofallmembers>
+      <member refid="structFREQREF__USER__INFO_1aade43d515eaf0293c830aa7a87598303" prot="public" virt="non-virtual"><scope>FREQREF_USER_INFO</scope><name>dacValue</name></member>
+      <member refid="structFREQREF__USER__INFO_1a987c42f41ef4e1c5f3d5e9273691a866" prot="public" virt="non-virtual"><scope>FREQREF_USER_INFO</scope><name>datetime</name></member>
+      <member refid="structFREQREF__USER__INFO_1a58761e33411b090095ac1da7945b0f3e" prot="public" virt="non-virtual"><scope>FREQREF_USER_INFO</scope><name>isvalid</name></member>
+      <member refid="structFREQREF__USER__INFO_1ac996049a7a80d10a7edd6198b41ee6f0" prot="public" virt="non-virtual"><scope>FREQREF_USER_INFO</scope><name>temperature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
