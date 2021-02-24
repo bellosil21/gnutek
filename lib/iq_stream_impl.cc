@@ -24,6 +24,7 @@
 
 #include <gnuradio/io_signature.h>
 #include "iq_stream_impl.h"
+#include <time.h>
 
 namespace gr {
   namespace TekRSA {
@@ -73,7 +74,7 @@ static bool search_and_connect(int dev_sel, bool do_reset)
 {
 	RSA_API::ReturnStatus rs;
 
-	printf("\nSearching for Devices... 111");
+	printf("\nSearching for Devices...");
 	int num_dev;
 	int* dev_id;
 	const char** dev_sn;
@@ -288,8 +289,15 @@ static int get_iq_data(void *p_client_buffer)
 		printf("fail@IQSTREAM_Start\n");
 	}
 
+	time_t curr_time = time(NULL);
+	char* time = ctime(&curr_time);
 	while(true)
 	{
+		char* curr = ctime(&curr_time);
+		if (strcmp(time, curr) != 0){
+			time = curr;
+			printf("%s", time);
+		}
 		rs = RSA_API::IQSTREAM_GetIQData(p_client_buffer,
 						   &ret_len, &iq_info);
 		if (!return_check("IQSTREAM_getIQData", rs))
@@ -316,6 +324,7 @@ static int get_iq_data(void *p_client_buffer)
 		}
 		if (iq_info.acqStatus != 0)
 		{
+			//printf("%s", ctime(&curr_time));
 			if ((iq_info.acqStatus & over_range) == over_range)
 			{
 				//printf("Warning! ADC input over_range.\n");
@@ -347,10 +356,11 @@ static int get_iq_data(void *p_client_buffer)
 			if ((iq_info.acqStatus & data_loss) == data_loss)
 			{
 				//printf("Warning! Output buffer overflow (Client unloading
-				// data too slow, data loss has occurred)\n");
+				//data too slow, data loss has occurred)\n");
 				printf("l");
 			}
 		}
+		
 	}
 	//printf("Got out of thread loop!\n");
 	return -1;
