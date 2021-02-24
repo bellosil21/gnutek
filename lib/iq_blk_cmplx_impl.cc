@@ -289,8 +289,8 @@ static int get_iq_block(gr_complex *iq_block, int block_len_req)
 
 		for (int k = 0; k < block_len_rtn; k++)
 		{
-			iq_block[k].real() = iq_data[k].i;
-			iq_block[k].imag() = iq_data[k].q;
+			iq_block[k].real(iq_data[k].i);
+			iq_block[k].imag(iq_data[k].q);
 		}
 
 		//Queries the IQ acquisition status information for 
