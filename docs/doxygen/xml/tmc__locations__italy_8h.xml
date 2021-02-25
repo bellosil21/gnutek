@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="tmc__locations__italy_8h" kind="file" language="C++">
+    <compoundname>tmc_locations_italy.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="tmc__locations__italy_8h_1a32e0080b52b121e70979ccb16e67eaf5" prot="public" static="no">
+        <name>TMC_LOCATIONS_ITALIAN</name>
+        <initializer>13445+1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/tmc_locations_italy.h" line="28" column="9" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/tmc_locations_italy.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="tmc__locations__italy_8h_1acf3c349a54e3198a7db1fb65b387937d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>tmc_location_names_italian</definition>
+        <argsstring></argsstring>
+        <name>tmc_location_names_italian</name>
+        <initializer>= new std::string[<ref refid="tmc__locations__italy_8h_1a32e0080b52b121e70979ccb16e67eaf5" kindref="member">TMC_LOCATIONS_ITALIAN</ref>][2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/tmc_locations_italy.h" line="31" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/tmc_locations_italy.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/tmc_locations_italy.h"/>
+  </compounddef>
+</doxygen>

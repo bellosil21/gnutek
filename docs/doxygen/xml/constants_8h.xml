@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="constants_8h" kind="file" language="C++">
+    <compoundname>constants.h</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="constants_8h_1a1df384a4d10f3876b153d1948d167ca6" prot="public" static="yes" mutable="no">
+        <type>const unsigned int</type>
+        <definition>const unsigned int offset_pos[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>offset_pos</name>
+        <initializer>={0,1,2,3,2}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="25" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8h_1aa299156a3fd5a480c943680d1e5f90be" prot="public" static="yes" mutable="no">
+        <type>const unsigned int</type>
+        <definition>const unsigned int offset_word[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>offset_word</name>
+        <initializer>={252,408,360,436,848}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="26" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8h_1a4f8cc5fc5325a0b018a01c97ed7383dd" prot="public" static="yes" mutable="no">
+        <type>const unsigned int</type>
+        <definition>const unsigned int syndrome[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>syndrome</name>
+        <initializer>={383,14,303,663,748}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="27" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8h_1a8c40436b53b0ac3607d16c558da0469a" prot="public" static="yes" mutable="no">
+        <type>const char *const</type>
+        <definition>const char* const offset_name[]</definition>
+        <argsstring>[]</argsstring>
+        <name>offset_name</name>
+        <initializer>={&quot;A&quot;,&quot;B&quot;,&quot;C&quot;,&quot;D&quot;,&quot;C&apos;&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="28" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8h_1a870576edc40cb4c4d88ab8071eef1bd6" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string pty_table[32][2]</definition>
+        <argsstring>[32][2]</argsstring>
+        <name>pty_table</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="32" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8h_1a5af77c8fdfdd8dd5b5e4f63815727430" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string pi_country_codes[15][5]</definition>
+        <argsstring>[15][5]</argsstring>
+        <name>pi_country_codes</name>
+        <initializer>={
+	{&quot;DE&quot;,&quot;GR&quot;,&quot;MA&quot;,&quot;__&quot;,&quot;MD&quot;},
+	{&quot;DZ&quot;,&quot;CY&quot;,&quot;CZ&quot;,&quot;IE&quot;,&quot;EE&quot;},
+	{&quot;AD&quot;,&quot;SM&quot;,&quot;PL&quot;,&quot;TR&quot;,&quot;__&quot;},
+	{&quot;IL&quot;,&quot;CH&quot;,&quot;VA&quot;,&quot;MK&quot;,&quot;__&quot;},
+	{&quot;IT&quot;,&quot;JO&quot;,&quot;SK&quot;,&quot;__&quot;,&quot;__&quot;},
+	{&quot;BE&quot;,&quot;FI&quot;,&quot;SY&quot;,&quot;__&quot;,&quot;UA&quot;},
+	{&quot;RU&quot;,&quot;LU&quot;,&quot;TN&quot;,&quot;__&quot;,&quot;__&quot;},
+	{&quot;PS&quot;,&quot;BG&quot;,&quot;__&quot;,&quot;NL&quot;,&quot;PT&quot;},
+	{&quot;AL&quot;,&quot;DK&quot;,&quot;LI&quot;,&quot;LV&quot;,&quot;SI&quot;},
+	{&quot;AT&quot;,&quot;GI&quot;,&quot;IS&quot;,&quot;LB&quot;,&quot;__&quot;},
+	{&quot;HU&quot;,&quot;IQ&quot;,&quot;MC&quot;,&quot;__&quot;,&quot;__&quot;},
+	{&quot;MT&quot;,&quot;GB&quot;,&quot;LT&quot;,&quot;HR&quot;,&quot;__&quot;},
+	{&quot;DE&quot;,&quot;LY&quot;,&quot;YU&quot;,&quot;__&quot;,&quot;__&quot;},
+	{&quot;__&quot;,&quot;RO&quot;,&quot;ES&quot;,&quot;SE&quot;,&quot;__&quot;},
+	{&quot;EG&quot;,&quot;FR&quot;,&quot;NO&quot;,&quot;BY&quot;,&quot;BA&quot;}}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="67" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8h_1a6eccc21ce530885612b3f153a3e0789c" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string coverage_area_codes[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>coverage_area_codes</name>
+        <initializer>={
+	&quot;Local&quot;,
+	&quot;International&quot;,
+	&quot;National&quot;,
+	&quot;Supra-regional&quot;,
+	&quot;Regional 1&quot;,
+	&quot;Regional 2&quot;,
+	&quot;Regional 3&quot;,
+	&quot;Regional 4&quot;,
+	&quot;Regional 5&quot;,
+	&quot;Regional 6&quot;,
+	&quot;Regional 7&quot;,
+	&quot;Regional 8&quot;,
+	&quot;Regional 9&quot;,
+	&quot;Regional 10&quot;,
+	&quot;Regional 11&quot;,
+	&quot;Regional 12&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="85" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8h_1a42d0279143c7d89587d20a81f19cdd4a" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string rds_group_acronyms[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>rds_group_acronyms</name>
+        <initializer>={
+	&quot;BASIC&quot;,
+	&quot;PIN/SL&quot;,
+	&quot;RT&quot;,
+	&quot;AID&quot;,
+	&quot;CT&quot;,
+	&quot;TDC&quot;,
+	&quot;IH&quot;,
+	&quot;RP&quot;,
+	&quot;TMC&quot;,
+	&quot;EWS&quot;,
+	&quot;___&quot;,
+	&quot;___&quot;,
+	&quot;___&quot;,
+	&quot;___&quot;,
+	&quot;EON&quot;,
+	&quot;___&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="103" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8h_1aae5294deea4d14dd662510fa4b7fd371" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string language_codes[44]</definition>
+        <argsstring>[44]</argsstring>
+        <name>language_codes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="124" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8h_1aafd148d186f42ed11efdbbd01450ea37" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string tmc_duration[8][2]</definition>
+        <argsstring>[8][2]</argsstring>
+        <name>tmc_duration</name>
+        <initializer>={
+	{&quot;no duration given&quot;, &quot;no duration given&quot;},
+	{&quot;15 minutes&quot;, &quot;next few hours&quot;},
+	{&quot;30 minutes&quot;, &quot;rest of the day&quot;},
+	{&quot;1 hour&quot;, &quot;until tomorrow evening&quot;},
+	{&quot;2 hours&quot;, &quot;rest of the week&quot;},
+	{&quot;3 hours&quot;, &quot;end of next week&quot;},
+	{&quot;4 hours&quot;, &quot;end of the month&quot;},
+	{&quot;rest of the day&quot;, &quot;long period&quot;}}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="171" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8h_1ac6947cf62985b38b62bf7ce0f0b3521b" prot="public" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int optional_content_lengths[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>optional_content_lengths</name>
+        <initializer>={3,3,5,5,5,8,8,8,8,11,16,16,16,16,0,0}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="183" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="constants_8h_1a04ca4cb2371238c8eb2c193d9c575370" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string label_descriptions[16]</definition>
+        <argsstring>[16]</argsstring>
+        <name>label_descriptions</name>
+        <initializer>={
+	&quot;Duration&quot;,
+	&quot;Control code&quot;,
+	&quot;Length of route affected&quot;,
+	&quot;Speed limit advice&quot;,
+	&quot;Quantifier&quot;,
+	&quot;Quantifier&quot;,
+	&quot;Supplementary information code&quot;,
+	&quot;Explicit start time&quot;,
+	&quot;Explicit stop time&quot;,
+	&quot;Additional event&quot;,
+	&quot;Detailed diversion instructions&quot;,
+	&quot;Destination&quot;,
+	&quot;RFU (Reserved for future use)&quot;,
+	&quot;Cross linkage to source of problem, or another route&quot;,
+	&quot;Separator&quot;,
+	&quot;RFU (Reserved for future use)&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" line="185" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/constants.h"/>
+  </compounddef>
+</doxygen>

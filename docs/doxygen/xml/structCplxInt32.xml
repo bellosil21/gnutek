@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structCplxInt32" kind="struct" language="C++" prot="public">
+    <compoundname>CplxInt32</compoundname>
+    <includes refid="RSA__API_8h" local="no">RSA_API.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structCplxInt32_1af65a16e7e2a1a9cf238cf99584eb0961" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t CplxInt32::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="276" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structCplxInt32_1a2af3d36a01e7a676339f4072375e00f0" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t CplxInt32::q</definition>
+        <argsstring></argsstring>
+        <name>q</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="277" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="275" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="274" bodyend="278"/>
+    <listofallmembers>
+      <member refid="structCplxInt32_1af65a16e7e2a1a9cf238cf99584eb0961" prot="public" virt="non-virtual"><scope>CplxInt32</scope><name>i</name></member>
+      <member refid="structCplxInt32_1a2af3d36a01e7a676339f4072375e00f0" prot="public" virt="non-virtual"><scope>CplxInt32</scope><name>q</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

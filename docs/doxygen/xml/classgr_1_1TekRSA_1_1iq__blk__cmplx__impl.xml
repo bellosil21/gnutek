@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::TekRSA::iq_blk_cmplx_impl</compoundname>
+    <basecompoundref refid="classgr_1_1TekRSA_1_1iq__blk__cmplx" prot="public" virt="non-virtual">gr::TekRSA::iq_blk_cmplx</basecompoundref>
+    <includes refid="iq__blk__cmplx__impl_8h" local="no">iq_blk_cmplx_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a262b41490803ad902449c6b18640871a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::TekRSA::iq_blk_cmplx_impl::iq_blk_cmplx_impl</definition>
+        <argsstring>(float in_ctr_freq, float in_ref_lvl, float in_bw, int in_rec_len, int in_dev_id)</argsstring>
+        <name>iq_blk_cmplx_impl</name>
+        <param>
+          <type>float</type>
+          <declname>in_ctr_freq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>in_ref_lvl</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>in_bw</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>in_rec_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>in_dev_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_blk_cmplx_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1ac1b9a4739ba7008518ca94ef25510e31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::TekRSA::iq_blk_cmplx_impl::~iq_blk_cmplx_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~iq_blk_cmplx_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_blk_cmplx_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a6e3347e9096388f6c28161042386b628" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::iq_blk_cmplx_impl::set_cf</definition>
+        <argsstring>(float in_ctr_freq)</argsstring>
+        <name>set_cf</name>
+        <reimplements refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1a88563dd47fcc4ec36ffad6cf67c5454f">set_cf</reimplements>
+        <param>
+          <type>float</type>
+          <declname>in_ctr_freq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_blk_cmplx_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a196969914bfe8391871cfdae6f51e055" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::iq_blk_cmplx_impl::set_rl</definition>
+        <argsstring>(float in_ref_lvl)</argsstring>
+        <name>set_rl</name>
+        <reimplements refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1ad23801caf58f05f4b0889fc7cbf0eb02">set_rl</reimplements>
+        <param>
+          <type>float</type>
+          <declname>in_ref_lvl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_blk_cmplx_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a20fb97ff03c80290473020d47ed937ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::iq_blk_cmplx_impl::set_bw</definition>
+        <argsstring>(float in_bw)</argsstring>
+        <name>set_bw</name>
+        <reimplements refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1a644536306b7d11dbde0a45e6e0b58ec3">set_bw</reimplements>
+        <param>
+          <type>float</type>
+          <declname>in_bw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_blk_cmplx_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a92430edbbd5b4f9bfc7aa828083668c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::iq_blk_cmplx_impl::set_bl</definition>
+        <argsstring>(float in_rec_len)</argsstring>
+        <name>set_bl</name>
+        <reimplements refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1abb80abb70afd3d7c1961b1601752565d">set_bl</reimplements>
+        <param>
+          <type>float</type>
+          <declname>in_rec_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_blk_cmplx_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a1440ed3318606e5938b1faacc3bfe948" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::TekRSA::iq_blk_cmplx_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_blk_cmplx_impl.h" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="45">
+        <label>gr::TekRSA::iq_blk_cmplx_impl</label>
+        <link refid="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>gr::TekRSA::iq_blk_cmplx</label>
+        <link refid="classgr_1_1TekRSA_1_1iq__blk__cmplx"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="48">
+        <label>gr::TekRSA::iq_blk_cmplx_impl</label>
+        <link refid="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl"/>
+        <childnode refid="49" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>gr::TekRSA::iq_blk_cmplx</label>
+        <link refid="classgr_1_1TekRSA_1_1iq__blk__cmplx"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tekgnu/gnutek/lib/iq_blk_cmplx_impl.h" line="35" column="1" bodyfile="/home/tekgnu/gnutek/lib/iq_blk_cmplx_impl.h" bodystart="34" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a262b41490803ad902449c6b18640871a" prot="public" virt="non-virtual"><scope>gr::TekRSA::iq_blk_cmplx_impl</scope><name>iq_blk_cmplx_impl</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1ae7984218e1a4bb41eb59f71444a6388a" prot="public" virt="non-virtual"><scope>gr::TekRSA::iq_blk_cmplx_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a92430edbbd5b4f9bfc7aa828083668c3" prot="public" virt="virtual"><scope>gr::TekRSA::iq_blk_cmplx_impl</scope><name>set_bl</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a20fb97ff03c80290473020d47ed937ca" prot="public" virt="virtual"><scope>gr::TekRSA::iq_blk_cmplx_impl</scope><name>set_bw</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a6e3347e9096388f6c28161042386b628" prot="public" virt="virtual"><scope>gr::TekRSA::iq_blk_cmplx_impl</scope><name>set_cf</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a196969914bfe8391871cfdae6f51e055" prot="public" virt="virtual"><scope>gr::TekRSA::iq_blk_cmplx_impl</scope><name>set_rl</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1aecce83f9367dc065ce8b9fef4c816450" prot="public" virt="non-virtual"><scope>gr::TekRSA::iq_blk_cmplx_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1a1440ed3318606e5938b1faacc3bfe948" prot="public" virt="non-virtual"><scope>gr::TekRSA::iq_blk_cmplx_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl_1ac1b9a4739ba7008518ca94ef25510e31" prot="public" virt="non-virtual"><scope>gr::TekRSA::iq_blk_cmplx_impl</scope><name>~iq_blk_cmplx_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

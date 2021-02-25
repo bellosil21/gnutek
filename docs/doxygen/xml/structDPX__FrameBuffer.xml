@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structDPX__FrameBuffer" kind="struct" language="C++" prot="public">
+    <compoundname>DPX_FrameBuffer</compoundname>
+    <includes refid="RSA__API_8h" local="no">RSA_API.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1af3541d4ec05711738673a1a98375c206" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t DPX_FrameBuffer::fftPerFrame</definition>
+        <argsstring></argsstring>
+        <name>fftPerFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="655" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="655" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1acda7ea5271036ddee56435613fd506fa" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t DPX_FrameBuffer::fftCount</definition>
+        <argsstring></argsstring>
+        <name>fftCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="656" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="656" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1ab834fb8e99fcc3c34e22fa9cc84e2c86" prot="public" static="no" mutable="no">
+        <type>int64_t</type>
+        <definition>int64_t DPX_FrameBuffer::frameCount</definition>
+        <argsstring></argsstring>
+        <name>frameCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="657" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="657" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1ab936dea6b48b8cea7e6bb617356b9b6f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DPX_FrameBuffer::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="658" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="658" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a10220dcd7d70a7f10cdbc29292ffd7f0" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t DPX_FrameBuffer::acqDataStatus</definition>
+        <argsstring></argsstring>
+        <name>acqDataStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="659" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="659" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a335dd04782233c1e3bfeedeb23cf1524" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double DPX_FrameBuffer::minSigDuration</definition>
+        <argsstring></argsstring>
+        <name>minSigDuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="661" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="661" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a7013004935f6a3bfa8760fcc50c052d9" prot="public" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool DPX_FrameBuffer::minSigDurOutOfRange</definition>
+        <argsstring></argsstring>
+        <name>minSigDurOutOfRange</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="662" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="662" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1aa8bd132021fc3f331836c3835db6be9b" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t DPX_FrameBuffer::spectrumBitmapWidth</definition>
+        <argsstring></argsstring>
+        <name>spectrumBitmapWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="664" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="664" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a07b521c03be883c1e1f34296ff51d2cd" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t DPX_FrameBuffer::spectrumBitmapHeight</definition>
+        <argsstring></argsstring>
+        <name>spectrumBitmapHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="665" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="665" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1af5bc1bcd59001c4cede00ff41892bb94" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t DPX_FrameBuffer::spectrumBitmapSize</definition>
+        <argsstring></argsstring>
+        <name>spectrumBitmapSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="666" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="666" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a36948c0ba47102b5d489af6e4b5c7820" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t DPX_FrameBuffer::spectrumTraceLength</definition>
+        <argsstring></argsstring>
+        <name>spectrumTraceLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="667" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="667" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a7eb20c3e7d87f3df27abe60ba2263ec1" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t DPX_FrameBuffer::numSpectrumTraces</definition>
+        <argsstring></argsstring>
+        <name>numSpectrumTraces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="668" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="668" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a0d49ef1b4bf939b1c0b662cda91c6de5" prot="public" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool DPX_FrameBuffer::spectrumEnabled</definition>
+        <argsstring></argsstring>
+        <name>spectrumEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="670" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="670" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a394898f246130c3f5e0951d341b45775" prot="public" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool DPX_FrameBuffer::spectrogramEnabled</definition>
+        <argsstring></argsstring>
+        <name>spectrogramEnabled</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="671" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="671" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1ad891b6ee6de8a45beed2ba7dce373eb8" prot="public" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* DPX_FrameBuffer::spectrumBitmap</definition>
+        <argsstring></argsstring>
+        <name>spectrumBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="673" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="673" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a04ddc93f6ea89e2eab5bfcbc1a121e95" prot="public" static="no" mutable="no">
+        <type>float **</type>
+        <definition>float** DPX_FrameBuffer::spectrumTraces</definition>
+        <argsstring></argsstring>
+        <name>spectrumTraces</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="674" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="674" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a7427aad574a99ecdf04e0772093336b8" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t DPX_FrameBuffer::sogramBitmapWidth</definition>
+        <argsstring></argsstring>
+        <name>sogramBitmapWidth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="676" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="676" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1ab35ccef89472ddfe044d51c7a95db40a" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t DPX_FrameBuffer::sogramBitmapHeight</definition>
+        <argsstring></argsstring>
+        <name>sogramBitmapHeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="677" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="677" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1acf2c4af856cc411766fb6baab79f0c29" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t DPX_FrameBuffer::sogramBitmapSize</definition>
+        <argsstring></argsstring>
+        <name>sogramBitmapSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="678" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="678" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a202319fc76768bdc3f103bcbf4b27ca5" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t DPX_FrameBuffer::sogramBitmapNumValidLines</definition>
+        <argsstring></argsstring>
+        <name>sogramBitmapNumValidLines</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="679" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="679" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1ad142212e7cdddf6dfbecb137175be299" prot="public" static="no" mutable="no">
+        <type>uint8_t *</type>
+        <definition>uint8_t* DPX_FrameBuffer::sogramBitmap</definition>
+        <argsstring></argsstring>
+        <name>sogramBitmap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="680" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="680" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1a2006a2ad977488e7db77b3a2b3011744" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* DPX_FrameBuffer::sogramBitmapTimestampArray</definition>
+        <argsstring></argsstring>
+        <name>sogramBitmapTimestampArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="681" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="681" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structDPX__FrameBuffer_1aa8f4a16975734fbd6eee5ee33f7f1db5" prot="public" static="no" mutable="no">
+        <type>int16_t *</type>
+        <definition>int16_t* DPX_FrameBuffer::sogramBitmapContainTriggerArray</definition>
+        <argsstring></argsstring>
+        <name>sogramBitmapContainTriggerArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="682" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="682" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="654" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="653" bodyend="684"/>
+    <listofallmembers>
+      <member refid="structDPX__FrameBuffer_1a10220dcd7d70a7f10cdbc29292ffd7f0" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>acqDataStatus</name></member>
+      <member refid="structDPX__FrameBuffer_1acda7ea5271036ddee56435613fd506fa" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>fftCount</name></member>
+      <member refid="structDPX__FrameBuffer_1af3541d4ec05711738673a1a98375c206" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>fftPerFrame</name></member>
+      <member refid="structDPX__FrameBuffer_1ab834fb8e99fcc3c34e22fa9cc84e2c86" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>frameCount</name></member>
+      <member refid="structDPX__FrameBuffer_1a335dd04782233c1e3bfeedeb23cf1524" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>minSigDuration</name></member>
+      <member refid="structDPX__FrameBuffer_1a7013004935f6a3bfa8760fcc50c052d9" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>minSigDurOutOfRange</name></member>
+      <member refid="structDPX__FrameBuffer_1a7eb20c3e7d87f3df27abe60ba2263ec1" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>numSpectrumTraces</name></member>
+      <member refid="structDPX__FrameBuffer_1ad142212e7cdddf6dfbecb137175be299" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>sogramBitmap</name></member>
+      <member refid="structDPX__FrameBuffer_1aa8f4a16975734fbd6eee5ee33f7f1db5" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>sogramBitmapContainTriggerArray</name></member>
+      <member refid="structDPX__FrameBuffer_1ab35ccef89472ddfe044d51c7a95db40a" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>sogramBitmapHeight</name></member>
+      <member refid="structDPX__FrameBuffer_1a202319fc76768bdc3f103bcbf4b27ca5" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>sogramBitmapNumValidLines</name></member>
+      <member refid="structDPX__FrameBuffer_1acf2c4af856cc411766fb6baab79f0c29" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>sogramBitmapSize</name></member>
+      <member refid="structDPX__FrameBuffer_1a2006a2ad977488e7db77b3a2b3011744" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>sogramBitmapTimestampArray</name></member>
+      <member refid="structDPX__FrameBuffer_1a7427aad574a99ecdf04e0772093336b8" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>sogramBitmapWidth</name></member>
+      <member refid="structDPX__FrameBuffer_1a394898f246130c3f5e0951d341b45775" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>spectrogramEnabled</name></member>
+      <member refid="structDPX__FrameBuffer_1ad891b6ee6de8a45beed2ba7dce373eb8" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>spectrumBitmap</name></member>
+      <member refid="structDPX__FrameBuffer_1a07b521c03be883c1e1f34296ff51d2cd" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>spectrumBitmapHeight</name></member>
+      <member refid="structDPX__FrameBuffer_1af5bc1bcd59001c4cede00ff41892bb94" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>spectrumBitmapSize</name></member>
+      <member refid="structDPX__FrameBuffer_1aa8bd132021fc3f331836c3835db6be9b" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>spectrumBitmapWidth</name></member>
+      <member refid="structDPX__FrameBuffer_1a0d49ef1b4bf939b1c0b662cda91c6de5" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>spectrumEnabled</name></member>
+      <member refid="structDPX__FrameBuffer_1a36948c0ba47102b5d489af6e4b5c7820" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>spectrumTraceLength</name></member>
+      <member refid="structDPX__FrameBuffer_1a04ddc93f6ea89e2eab5bfcbc1a121e95" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>spectrumTraces</name></member>
+      <member refid="structDPX__FrameBuffer_1ab936dea6b48b8cea7e6bb617356b9b6f" prot="public" virt="non-virtual"><scope>DPX_FrameBuffer</scope><name>timestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

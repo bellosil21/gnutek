@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structSpectrum__TraceInfo" kind="struct" language="C++" prot="public">
+    <compoundname>Spectrum_TraceInfo</compoundname>
+    <includes refid="RSA__API_8h" local="no">RSA_API.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSpectrum__TraceInfo_1aabc1993660ee76a623b39ea40c9d8b41" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t Spectrum_TraceInfo::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="615" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="615" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSpectrum__TraceInfo_1a1cc21fe5e04d2294e788e10a538b52c9" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t Spectrum_TraceInfo::acqDataStatus</definition>
+        <argsstring></argsstring>
+        <name>acqDataStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="616" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="616" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="614" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="613" bodyend="617"/>
+    <listofallmembers>
+      <member refid="structSpectrum__TraceInfo_1a1cc21fe5e04d2294e788e10a538b52c9" prot="public" virt="non-virtual"><scope>Spectrum_TraceInfo</scope><name>acqDataStatus</name></member>
+      <member refid="structSpectrum__TraceInfo_1aabc1993660ee76a623b39ea40c9d8b41" prot="public" virt="non-virtual"><scope>Spectrum_TraceInfo</scope><name>timestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

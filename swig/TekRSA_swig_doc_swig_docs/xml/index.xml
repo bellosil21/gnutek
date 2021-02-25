@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="classgr_1_1TekRSA_1_1iq__blk__cmplx" kind="class"><name>gr::TekRSA::iq_blk_cmplx</name>
+    <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1aecce83f9367dc065ce8b9fef4c816450" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1a88563dd47fcc4ec36ffad6cf67c5454f" kind="function"><name>set_cf</name></member>
+    <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1ad23801caf58f05f4b0889fc7cbf0eb02" kind="function"><name>set_rl</name></member>
+    <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1a644536306b7d11dbde0a45e6e0b58ec3" kind="function"><name>set_bw</name></member>
+    <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1abb80abb70afd3d7c1961b1601752565d" kind="function"><name>set_bl</name></member>
+    <member refid="classgr_1_1TekRSA_1_1iq__blk__cmplx_1ae7984218e1a4bb41eb59f71444a6388a" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1TekRSA_1_1iq__stream" kind="class"><name>gr::TekRSA::iq_stream</name>
+    <member refid="classgr_1_1TekRSA_1_1iq__stream_1afb8564e5766789a0e8ea2183cd45fdd5" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1TekRSA_1_1iq__stream_1afb56f10241e573d6de84640510305eb9" kind="function"><name>set_cf</name></member>
+    <member refid="classgr_1_1TekRSA_1_1iq__stream_1a1fad1b7074a95803c07e27b0da39c564" kind="function"><name>set_rl</name></member>
+    <member refid="classgr_1_1TekRSA_1_1iq__stream_1a1231ab3ad4d159a6a6a52b11601d2cd3" kind="function"><name>set_bw</name></member>
+    <member refid="classgr_1_1TekRSA_1_1iq__stream_1ac9d4cd6ad7fbd8b594113df5c782dfbc" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1TekRSA" kind="namespace"><name>gr::TekRSA</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1af68e78175c997d2e96f832ca021b813c" kind="define"><name>TEKRSA_API</name></member>
+  </compound>
+  <compound refid="iq__blk__cmplx_8h" kind="file"><name>iq_blk_cmplx.h</name>
+  </compound>
+  <compound refid="iq__stream_8h" kind="file"><name>iq_stream.h</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/tekgnu/gnutek/include</name>
+  </compound>
+  <compound refid="dir_d0d66ad514c9c06f0ec83c6a1e5672f4" kind="dir"><name>/home/tekgnu/gnutek/include/TekRSA</name>
+  </compound>
+</doxygenindex>

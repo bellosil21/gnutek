@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structSpectrum__Limits" kind="struct" language="C++" prot="public">
+    <compoundname>Spectrum_Limits</compoundname>
+    <includes refid="RSA__API_8h" local="no">RSA_API.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structSpectrum__Limits_1a55bd9ae742c621d82a530eae9d3cd445" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Spectrum_Limits::maxSpan</definition>
+        <argsstring></argsstring>
+        <name>maxSpan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="602" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="602" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSpectrum__Limits_1a2d0231c2a1504299ee96c5021d73812b" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Spectrum_Limits::minSpan</definition>
+        <argsstring></argsstring>
+        <name>minSpan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="603" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="603" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSpectrum__Limits_1a8192add399917399e254b48333d03e1d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Spectrum_Limits::maxRBW</definition>
+        <argsstring></argsstring>
+        <name>maxRBW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="604" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="604" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSpectrum__Limits_1a0fa6cf9550c4fb0820919b35fe9cf9f3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Spectrum_Limits::minRBW</definition>
+        <argsstring></argsstring>
+        <name>minRBW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="605" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="605" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSpectrum__Limits_1a8c64a331f9e45ac8acfa618d62fa3080" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Spectrum_Limits::maxVBW</definition>
+        <argsstring></argsstring>
+        <name>maxVBW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="606" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="606" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSpectrum__Limits_1a8c7e3c5429d40297fa80c5cbcbbf7418" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Spectrum_Limits::minVBW</definition>
+        <argsstring></argsstring>
+        <name>minVBW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="607" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="607" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSpectrum__Limits_1a2024230bf3e2c65bf096b7fde41b34bb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Spectrum_Limits::maxTraceLength</definition>
+        <argsstring></argsstring>
+        <name>maxTraceLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="608" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="608" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structSpectrum__Limits_1aee2784c345cc1b5bba0d216da5b6d907" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Spectrum_Limits::minTraceLength</definition>
+        <argsstring></argsstring>
+        <name>minTraceLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="609" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="609" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="601" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="600" bodyend="610"/>
+    <listofallmembers>
+      <member refid="structSpectrum__Limits_1a8192add399917399e254b48333d03e1d" prot="public" virt="non-virtual"><scope>Spectrum_Limits</scope><name>maxRBW</name></member>
+      <member refid="structSpectrum__Limits_1a55bd9ae742c621d82a530eae9d3cd445" prot="public" virt="non-virtual"><scope>Spectrum_Limits</scope><name>maxSpan</name></member>
+      <member refid="structSpectrum__Limits_1a2024230bf3e2c65bf096b7fde41b34bb" prot="public" virt="non-virtual"><scope>Spectrum_Limits</scope><name>maxTraceLength</name></member>
+      <member refid="structSpectrum__Limits_1a8c64a331f9e45ac8acfa618d62fa3080" prot="public" virt="non-virtual"><scope>Spectrum_Limits</scope><name>maxVBW</name></member>
+      <member refid="structSpectrum__Limits_1a0fa6cf9550c4fb0820919b35fe9cf9f3" prot="public" virt="non-virtual"><scope>Spectrum_Limits</scope><name>minRBW</name></member>
+      <member refid="structSpectrum__Limits_1a2d0231c2a1504299ee96c5021d73812b" prot="public" virt="non-virtual"><scope>Spectrum_Limits</scope><name>minSpan</name></member>
+      <member refid="structSpectrum__Limits_1aee2784c345cc1b5bba0d216da5b6d907" prot="public" virt="non-virtual"><scope>Spectrum_Limits</scope><name>minTraceLength</name></member>
+      <member refid="structSpectrum__Limits_1a8c7e3c5429d40297fa80c5cbcbbf7418" prot="public" virt="non-virtual"><scope>Spectrum_Limits</scope><name>minVBW</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
