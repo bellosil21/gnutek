@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structIQSTRMIQINFO" kind="struct" language="C++" prot="public">
+    <compoundname>IQSTRMIQINFO</compoundname>
+    <includes refid="RSA__API_8h" local="no">RSA_API.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structIQSTRMIQINFO_1a1e8f38004c1bc1c0c54a9b8a2eb5f530" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t IQSTRMIQINFO::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="907" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="907" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIQSTRMIQINFO_1aaf0a08988274e1212f167060aff1d9be" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int IQSTRMIQINFO::triggerCount</definition>
+        <argsstring></argsstring>
+        <name>triggerCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="908" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="908" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIQSTRMIQINFO_1a31ff4dd4850976ec9ab1ab1f41a06c00" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* IQSTRMIQINFO::triggerIndices</definition>
+        <argsstring></argsstring>
+        <name>triggerIndices</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="909" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="909" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIQSTRMIQINFO_1af5b7f4ea844245f2db15d0e251732cfb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double IQSTRMIQINFO::scaleFactor</definition>
+        <argsstring></argsstring>
+        <name>scaleFactor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="910" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="910" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structIQSTRMIQINFO_1ae985c046a0af2fb8143cc926cc16ec83" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t IQSTRMIQINFO::acqStatus</definition>
+        <argsstring></argsstring>
+        <name>acqStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="911" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="911" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="906" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="905" bodyend="912"/>
+    <listofallmembers>
+      <member refid="structIQSTRMIQINFO_1ae985c046a0af2fb8143cc926cc16ec83" prot="public" virt="non-virtual"><scope>IQSTRMIQINFO</scope><name>acqStatus</name></member>
+      <member refid="structIQSTRMIQINFO_1af5b7f4ea844245f2db15d0e251732cfb" prot="public" virt="non-virtual"><scope>IQSTRMIQINFO</scope><name>scaleFactor</name></member>
+      <member refid="structIQSTRMIQINFO_1a1e8f38004c1bc1c0c54a9b8a2eb5f530" prot="public" virt="non-virtual"><scope>IQSTRMIQINFO</scope><name>timestamp</name></member>
+      <member refid="structIQSTRMIQINFO_1aaf0a08988274e1212f167060aff1d9be" prot="public" virt="non-virtual"><scope>IQSTRMIQINFO</scope><name>triggerCount</name></member>
+      <member refid="structIQSTRMIQINFO_1a31ff4dd4850976ec9ab1ab1f41a06c00" prot="public" virt="non-virtual"><scope>IQSTRMIQINFO</scope><name>triggerIndices</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_c5113be8716659679d5db24b63b839d6" kind="dir">
+    <compoundname>include</compoundname>
+    <innerdir refid="dir_0e56267842a4432253cafdbbc0e9e751">rds</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/examples/gr-rds/include/"/>
+  </compounddef>
+</doxygen>

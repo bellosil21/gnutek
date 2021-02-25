@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="structPOWER__INFO" kind="struct" language="C++" prot="public">
+    <compoundname>POWER_INFO</compoundname>
+    <includes refid="RSA__API_8h" local="no">RSA_API.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structPOWER__INFO_1ae681859aa97ea7c02ba4831c75289c7a" prot="public" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool POWER_INFO::externalPowerPresent</definition>
+        <argsstring></argsstring>
+        <name>externalPowerPresent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="984" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="984" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOWER__INFO_1a9e7a0e2f9b626f2ec481c36fbf17d763" prot="public" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool POWER_INFO::batteryPresent</definition>
+        <argsstring></argsstring>
+        <name>batteryPresent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="985" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="985" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOWER__INFO_1ac914d138573d84d768b44caf852fdbe4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double POWER_INFO::batteryChargeLevel</definition>
+        <argsstring></argsstring>
+        <name>batteryChargeLevel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="986" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="986" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOWER__INFO_1adc972fae12ab528be818efdc63f12e8e" prot="public" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool POWER_INFO::batteryCharging</definition>
+        <argsstring></argsstring>
+        <name>batteryCharging</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="987" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOWER__INFO_1a9243da54a363e900e60afe3ce73de662" prot="public" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool POWER_INFO::batteryOverTemperature</definition>
+        <argsstring></argsstring>
+        <name>batteryOverTemperature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="988" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="988" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structPOWER__INFO_1afa2d02a32a7cc2be0b68a69871cc7ca3" prot="public" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool POWER_INFO::batteryHardwareError</definition>
+        <argsstring></argsstring>
+        <name>batteryHardwareError</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="989" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="989" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="983" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="982" bodyend="990"/>
+    <listofallmembers>
+      <member refid="structPOWER__INFO_1ac914d138573d84d768b44caf852fdbe4" prot="public" virt="non-virtual"><scope>POWER_INFO</scope><name>batteryChargeLevel</name></member>
+      <member refid="structPOWER__INFO_1adc972fae12ab528be818efdc63f12e8e" prot="public" virt="non-virtual"><scope>POWER_INFO</scope><name>batteryCharging</name></member>
+      <member refid="structPOWER__INFO_1afa2d02a32a7cc2be0b68a69871cc7ca3" prot="public" virt="non-virtual"><scope>POWER_INFO</scope><name>batteryHardwareError</name></member>
+      <member refid="structPOWER__INFO_1a9243da54a363e900e60afe3ce73de662" prot="public" virt="non-virtual"><scope>POWER_INFO</scope><name>batteryOverTemperature</name></member>
+      <member refid="structPOWER__INFO_1a9e7a0e2f9b626f2ec481c36fbf17d763" prot="public" virt="non-virtual"><scope>POWER_INFO</scope><name>batteryPresent</name></member>
+      <member refid="structPOWER__INFO_1ae681859aa97ea7c02ba4831c75289c7a" prot="public" virt="non-virtual"><scope>POWER_INFO</scope><name>externalPowerPresent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

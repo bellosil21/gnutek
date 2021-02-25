@@ -1,0 +1,6 @@
+/home/tekgnu/gnutek/grc/CMakeFiles/install/strip.dir
+/home/tekgnu/gnutek/grc/CMakeFiles/install.dir
+/home/tekgnu/gnutek/grc/CMakeFiles/install/local.dir
+/home/tekgnu/gnutek/grc/CMakeFiles/list_install_components.dir
+/home/tekgnu/gnutek/grc/CMakeFiles/edit_cache.dir
+/home/tekgnu/gnutek/grc/CMakeFiles/rebuild_cache.dir

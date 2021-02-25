@@ -1,0 +1,26 @@
+var structDPX__FrameBuffer =
+[
+    [ "acqDataStatus", "structDPX__FrameBuffer.html#a10220dcd7d70a7f10cdbc29292ffd7f0", null ],
+    [ "fftCount", "structDPX__FrameBuffer.html#acda7ea5271036ddee56435613fd506fa", null ],
+    [ "fftPerFrame", "structDPX__FrameBuffer.html#af3541d4ec05711738673a1a98375c206", null ],
+    [ "frameCount", "structDPX__FrameBuffer.html#ab834fb8e99fcc3c34e22fa9cc84e2c86", null ],
+    [ "minSigDuration", "structDPX__FrameBuffer.html#a335dd04782233c1e3bfeedeb23cf1524", null ],
+    [ "minSigDurOutOfRange", "structDPX__FrameBuffer.html#a7013004935f6a3bfa8760fcc50c052d9", null ],
+    [ "numSpectrumTraces", "structDPX__FrameBuffer.html#a7eb20c3e7d87f3df27abe60ba2263ec1", null ],
+    [ "sogramBitmap", "structDPX__FrameBuffer.html#ad142212e7cdddf6dfbecb137175be299", null ],
+    [ "sogramBitmapContainTriggerArray", "structDPX__FrameBuffer.html#aa8f4a16975734fbd6eee5ee33f7f1db5", null ],
+    [ "sogramBitmapHeight", "structDPX__FrameBuffer.html#ab35ccef89472ddfe044d51c7a95db40a", null ],
+    [ "sogramBitmapNumValidLines", "structDPX__FrameBuffer.html#a202319fc76768bdc3f103bcbf4b27ca5", null ],
+    [ "sogramBitmapSize", "structDPX__FrameBuffer.html#acf2c4af856cc411766fb6baab79f0c29", null ],
+    [ "sogramBitmapTimestampArray", "structDPX__FrameBuffer.html#a2006a2ad977488e7db77b3a2b3011744", null ],
+    [ "sogramBitmapWidth", "structDPX__FrameBuffer.html#a7427aad574a99ecdf04e0772093336b8", null ],
+    [ "spectrogramEnabled", "structDPX__FrameBuffer.html#a394898f246130c3f5e0951d341b45775", null ],
+    [ "spectrumBitmap", "structDPX__FrameBuffer.html#ad891b6ee6de8a45beed2ba7dce373eb8", null ],
+    [ "spectrumBitmapHeight", "structDPX__FrameBuffer.html#a07b521c03be883c1e1f34296ff51d2cd", null ],
+    [ "spectrumBitmapSize", "structDPX__FrameBuffer.html#af5bc1bcd59001c4cede00ff41892bb94", null ],
+    [ "spectrumBitmapWidth", "structDPX__FrameBuffer.html#aa8bd132021fc3f331836c3835db6be9b", null ],
+    [ "spectrumEnabled", "structDPX__FrameBuffer.html#a0d49ef1b4bf939b1c0b662cda91c6de5", null ],
+    [ "spectrumTraceLength", "structDPX__FrameBuffer.html#a36948c0ba47102b5d489af6e4b5c7820", null ],
+    [ "spectrumTraces", "structDPX__FrameBuffer.html#a04ddc93f6ea89e2eab5bfcbc1a121e95", null ],
+    [ "timestamp", "structDPX__FrameBuffer.html#ab936dea6b48b8cea7e6bb617356b9b6f", null ]
+];

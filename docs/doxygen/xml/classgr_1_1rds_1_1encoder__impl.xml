@@ -1,0 +1,862 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1rds_1_1encoder__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::rds::encoder_impl</compoundname>
+    <basecompoundref refid="classgr_1_1rds_1_1encoder" prot="public" virt="non-virtual">gr::rds::encoder</basecompoundref>
+    <includes refid="encoder__impl_8h" local="no">encoder_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a81eb1c78cbf1950d48cec62838a1d829" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::rds::encoder_impl::infoword[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>infoword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="43" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a5c751224c4eeeb3330f180f223587daf" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::rds::encoder_impl::checkword[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>checkword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="44" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a914a9d1b3dbd840925f841b3e4595b09" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::rds::encoder_impl::block[4]</definition>
+        <argsstring>[4]</argsstring>
+        <name>block</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="45" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1aabca611a2f021e92c9b6365a226cecc8" prot="private" static="no" mutable="no">
+        <type>unsigned char **</type>
+        <definition>unsigned char** gr::rds::encoder_impl::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="46" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a4ad8c790fb4e2f4b06e800b8860cffe1" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::rds::encoder_impl::pty_locale</definition>
+        <argsstring></argsstring>
+        <name>pty_locale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="47" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a0d489a3fa997ef23e361108c2c606213" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::rds::encoder_impl::PTY</definition>
+        <argsstring></argsstring>
+        <name>PTY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="50" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1af93fcad1da82ebaa0d5f02950021c989" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char gr::rds::encoder_impl::radiotext[64]</definition>
+        <argsstring>[64]</argsstring>
+        <name>radiotext</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="51" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a2778e32831ce843d45e2e6bcee26bafb" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char gr::rds::encoder_impl::PS[8]</definition>
+        <argsstring>[8]</argsstring>
+        <name>PS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="52" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a35d2a3d81453b63345ffad517b140322" prot="private" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool gr::rds::encoder_impl::TA</definition>
+        <argsstring></argsstring>
+        <name>TA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="53" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a8fa69f00301efd86a633202c10e6910c" prot="private" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool gr::rds::encoder_impl::TP</definition>
+        <argsstring></argsstring>
+        <name>TP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="54" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a70eb4beb7568e909694b76329d9aeca9" prot="private" static="no" mutable="no">
+        <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        <definition>bool gr::rds::encoder_impl::MS</definition>
+        <argsstring></argsstring>
+        <name>MS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="55" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1afdfb502b0550139f51a339cbc432c997" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::rds::encoder_impl::PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="56" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1ab2a0c38b9fbc70b5ee6ca92c37d0008c" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::rds::encoder_impl::AF1</definition>
+        <argsstring></argsstring>
+        <name>AF1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="57" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1ac144339d109d044f3eb3cd7f0f30eb84" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::rds::encoder_impl::DP</definition>
+        <argsstring></argsstring>
+        <name>DP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="59" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a980d85ac828acb150b500632fb840be1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::rds::encoder_impl::extent</definition>
+        <argsstring></argsstring>
+        <name>extent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="60" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a2a7042da0a834fadb24b69ea23a9d57c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::rds::encoder_impl::event</definition>
+        <argsstring></argsstring>
+        <name>event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="61" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a033d9d5720555aa43d2d9dc1e22f3cf8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::rds::encoder_impl::location</definition>
+        <argsstring></argsstring>
+        <name>location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="62" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1ad6956e9f0f9ec4df80e695f015ef8d60" prot="private" static="no" mutable="no">
+        <type>gr::thread::mutex</type>
+        <definition>gr::thread::mutex gr::rds::encoder_impl::d_mutex</definition>
+        <argsstring></argsstring>
+        <name>d_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="63" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a1dd229bd38823d89e651e2191e6c432f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::rds::encoder_impl::d_g0_counter</definition>
+        <argsstring></argsstring>
+        <name>d_g0_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="67" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a26fff59773f01dc521d02ecb50c0d3ea" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::rds::encoder_impl::d_g2_counter</definition>
+        <argsstring></argsstring>
+        <name>d_g2_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="71" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1ac34d3bf48f0f39b8c751e418219d2f08" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::rds::encoder_impl::d_current_buffer</definition>
+        <argsstring></argsstring>
+        <name>d_current_buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="74" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a7bec1dc394b42bd481e2604bf553484e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::rds::encoder_impl::d_buffer_bit_counter</definition>
+        <argsstring></argsstring>
+        <name>d_buffer_bit_counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="76" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1af910598113a690bb2abe2ca380c7fcbf" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::rds::encoder_impl::groups[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>groups</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="77" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1rds_1_1encoder__impl_1a47c615b55476d9ea79e1e0ce2a940b1e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::rds::encoder_impl::nbuffers</definition>
+        <argsstring></argsstring>
+        <name>nbuffers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="79" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a218daecd0d1d387fb3e590a3bd08d826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::rds::encoder_impl::encoder_impl</definition>
+        <argsstring>(unsigned char pty_locale, int pty, bool ms, std::string ps, double af1, bool tp, bool ta, int pi_country_code, int pi_coverage_area, int pi_reference_number, std::string radiotext)</argsstring>
+        <name>encoder_impl</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>pty_locale</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pty</declname>
+        </param>
+        <param>
+          <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+          <declname>ms</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>ps</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>af1</declname>
+        </param>
+        <param>
+          <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+          <declname>tp</declname>
+        </param>
+        <param>
+          <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+          <declname>ta</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pi_country_code</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pi_coverage_area</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pi_reference_number</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>radiotext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1ab544b0e58d2b478b9745674e804cefd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::rds::encoder_impl::set_ps</definition>
+        <argsstring>(std::string ps)</argsstring>
+        <name>set_ps</name>
+        <reimplements refid="classgr_1_1rds_1_1encoder_1a594ecaeb661d4c214ffb352c2ccbc5fc">set_ps</reimplements>
+        <param>
+          <type>std::string</type>
+          <declname>ps</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="34" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1ae2961dfec2cf6f3d1bc7d4d724d4745c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::rds::encoder_impl::~encoder_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~encoder_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a7f6e956d53bfca6e9f6e3c0ff20ad63a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::rds::encoder_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a3bc753fa6849d15567d8bfe4021652d5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::rebuild</definition>
+        <argsstring>()</argsstring>
+        <name>rebuild</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1af0ab9e833e4002e9c271d962461a344c" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::set_ms</definition>
+        <argsstring>(bool ms)</argsstring>
+        <name>set_ms</name>
+        <param>
+          <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+          <declname>ms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a78aa1c15f1a3ccd596b172ae2389514e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::set_tp</definition>
+        <argsstring>(bool tp)</argsstring>
+        <name>set_tp</name>
+        <param>
+          <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+          <declname>tp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a54c2ee88849b3e2199cf21af2164b608" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::set_ta</definition>
+        <argsstring>(bool ta)</argsstring>
+        <name>set_ta</name>
+        <param>
+          <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+          <declname>ta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a1b011bed962faead52b370bb1b0daf89" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::set_af1</definition>
+        <argsstring>(double af1)</argsstring>
+        <name>set_af1</name>
+        <param>
+          <type>double</type>
+          <declname>af1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a9346a82a80cfe7e7b1e4af37411b1ce5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::set_pty</definition>
+        <argsstring>(unsigned int pty)</argsstring>
+        <name>set_pty</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>pty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a3eb6cabed7f430ffb43cfb1d6c73cae0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::set_pi</definition>
+        <argsstring>(unsigned int pty)</argsstring>
+        <name>set_pi</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>pty</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="88" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1adf7fa5151d5fe4ae17d7fd9ba8ae6d54" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::set_radiotext</definition>
+        <argsstring>(std::string text)</argsstring>
+        <name>set_radiotext</name>
+        <param>
+          <type>std::string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1aa7ddc764f9e568861ee19ccfdd80e9d2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::count_groups</definition>
+        <argsstring>()</argsstring>
+        <name>count_groups</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a6f1f25643fd4ddfda46a9846020859ee" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::create_group</definition>
+        <argsstring>(const int, const bool)</argsstring>
+        <name>create_group</name>
+        <param>
+          <type>const int</type>
+        </param>
+        <param>
+          <type>const <ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="92" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1af32b02de5471c4ba4ceabeba4b82035a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::prepare_group0</definition>
+        <argsstring>(const bool)</argsstring>
+        <name>prepare_group0</name>
+        <param>
+          <type>const <ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a03bf580bbff5c3176ae0b8447cc403e5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::prepare_group1a</definition>
+        <argsstring>()</argsstring>
+        <name>prepare_group1a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a21fa41977e74c3bc5349acb2178727c4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::prepare_group2</definition>
+        <argsstring>(const bool)</argsstring>
+        <name>prepare_group2</name>
+        <param>
+          <type>const <ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="95" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a069f7969acdc0dbf0c9eafec193cc9ed" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::prepare_group3a</definition>
+        <argsstring>()</argsstring>
+        <name>prepare_group3a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="96" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1ad1f0504302df46cbd63703d9cb2fbad4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::prepare_group4a</definition>
+        <argsstring>()</argsstring>
+        <name>prepare_group4a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a6bdbdde23f983fd6b9b9285da67b702a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::prepare_group8a</definition>
+        <argsstring>()</argsstring>
+        <name>prepare_group8a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="98" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1ae731ec9a76f2a1be124a9806984a0f5d" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::prepare_group11a</definition>
+        <argsstring>()</argsstring>
+        <name>prepare_group11a</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="99" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a0fae03cbd250f4efe3f918902ef12ac0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::prepare_buffer</definition>
+        <argsstring>(int)</argsstring>
+        <name>prepare_buffer</name>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="100" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1ad6ed6a83b58bcad00f7c743d3150af92" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::rds::encoder_impl::encode_af</definition>
+        <argsstring>(double)</argsstring>
+        <name>encode_af</name>
+        <param>
+          <type>double</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="101" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1a63cabe86bbb3f1f8e5d9bc0de99e2e02" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::rds::encoder_impl::calc_syndrome</definition>
+        <argsstring>(unsigned long, unsigned char)</argsstring>
+        <name>calc_syndrome</name>
+        <param>
+          <type>unsigned</type>
+          <declname>long</declname>
+        </param>
+        <param>
+          <type>unsigned</type>
+          <declname>char</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1rds_1_1encoder__impl_1ae9fd60a957484251efdb19b9f03d8982" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::rds::encoder_impl::rds_in</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>rds_in</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="103" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="31">
+        <label>gr::rds::encoder</label>
+        <link refid="classgr_1_1rds_1_1encoder"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>sync_block</label>
+      </node>
+      <node id="30">
+        <label>gr::rds::encoder_impl</label>
+        <link refid="classgr_1_1rds_1_1encoder__impl"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="34">
+        <label>gr::rds::encoder</label>
+        <link refid="classgr_1_1rds_1_1encoder"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>sync_block</label>
+      </node>
+      <node id="33">
+        <label>gr::rds::encoder_impl</label>
+        <link refid="classgr_1_1rds_1_1encoder__impl"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" line="27" column="1" bodyfile="/home/tekgnu/gnutek/examples/gr-rds/lib/encoder_impl.h" bodystart="26" bodyend="104"/>
+    <listofallmembers>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1ab2a0c38b9fbc70b5ee6ca92c37d0008c" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>AF1</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a914a9d1b3dbd840925f841b3e4595b09" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>block</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1aabca611a2f021e92c9b6365a226cecc8" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>buffer</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a63cabe86bbb3f1f8e5d9bc0de99e2e02" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>calc_syndrome</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a5c751224c4eeeb3330f180f223587daf" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>checkword</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1aa7ddc764f9e568861ee19ccfdd80e9d2" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>count_groups</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a6f1f25643fd4ddfda46a9846020859ee" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>create_group</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a7bec1dc394b42bd481e2604bf553484e" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>d_buffer_bit_counter</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1ac34d3bf48f0f39b8c751e418219d2f08" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>d_current_buffer</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a1dd229bd38823d89e651e2191e6c432f" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>d_g0_counter</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a26fff59773f01dc521d02ecb50c0d3ea" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>d_g2_counter</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1ad6956e9f0f9ec4df80e695f015ef8d60" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>d_mutex</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1ac144339d109d044f3eb3cd7f0f30eb84" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>DP</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1ad6ed6a83b58bcad00f7c743d3150af92" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>encode_af</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a218daecd0d1d387fb3e590a3bd08d826" prot="public" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>encoder_impl</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a2a7042da0a834fadb24b69ea23a9d57c" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>event</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a980d85ac828acb150b500632fb840be1" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>extent</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1af910598113a690bb2abe2ca380c7fcbf" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>groups</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a81eb1c78cbf1950d48cec62838a1d829" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>infoword</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a033d9d5720555aa43d2d9dc1e22f3cf8" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>location</name></member>
+      <member refid="classgr_1_1rds_1_1encoder_1a8c92ad3be0a584334d4e8fa59e3d76e0" prot="public" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a70eb4beb7568e909694b76329d9aeca9" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>MS</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a47c615b55476d9ea79e1e0ce2a940b1e" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>nbuffers</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1afdfb502b0550139f51a339cbc432c997" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>PI</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a0fae03cbd250f4efe3f918902ef12ac0" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>prepare_buffer</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1af32b02de5471c4ba4ceabeba4b82035a" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>prepare_group0</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1ae731ec9a76f2a1be124a9806984a0f5d" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>prepare_group11a</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a03bf580bbff5c3176ae0b8447cc403e5" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>prepare_group1a</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a21fa41977e74c3bc5349acb2178727c4" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>prepare_group2</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a069f7969acdc0dbf0c9eafec193cc9ed" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>prepare_group3a</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1ad1f0504302df46cbd63703d9cb2fbad4" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>prepare_group4a</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a6bdbdde23f983fd6b9b9285da67b702a" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>prepare_group8a</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a2778e32831ce843d45e2e6bcee26bafb" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>PS</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a0d489a3fa997ef23e361108c2c606213" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>PTY</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a4ad8c790fb4e2f4b06e800b8860cffe1" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>pty_locale</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1af93fcad1da82ebaa0d5f02950021c989" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>radiotext</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1ae9fd60a957484251efdb19b9f03d8982" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>rds_in</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a3bc753fa6849d15567d8bfe4021652d5" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>rebuild</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a1b011bed962faead52b370bb1b0daf89" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>set_af1</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1af0ab9e833e4002e9c271d962461a344c" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>set_ms</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a3eb6cabed7f430ffb43cfb1d6c73cae0" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>set_pi</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1ab544b0e58d2b478b9745674e804cefd1" prot="public" virt="virtual"><scope>gr::rds::encoder_impl</scope><name>set_ps</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a9346a82a80cfe7e7b1e4af37411b1ce5" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>set_pty</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1adf7fa5151d5fe4ae17d7fd9ba8ae6d54" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>set_radiotext</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a54c2ee88849b3e2199cf21af2164b608" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>set_ta</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a78aa1c15f1a3ccd596b172ae2389514e" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>set_tp</name></member>
+      <member refid="classgr_1_1rds_1_1encoder_1aa764d6e37b73c5a934079ba3887e3a96" prot="public" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a35d2a3d81453b63345ffad517b140322" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>TA</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a8fa69f00301efd86a633202c10e6910c" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>TP</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1a7f6e956d53bfca6e9f6e3c0ff20ad63a" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1rds_1_1encoder__impl_1ae2961dfec2cf6f3d1bc7d4d724d4745c" prot="private" virt="non-virtual"><scope>gr::rds::encoder_impl</scope><name>~encoder_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

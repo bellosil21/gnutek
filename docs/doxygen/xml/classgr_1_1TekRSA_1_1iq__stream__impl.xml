@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1TekRSA_1_1iq__stream__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::TekRSA::iq_stream_impl</compoundname>
+    <basecompoundref refid="classgr_1_1TekRSA_1_1iq__stream" prot="public" virt="non-virtual">gr::TekRSA::iq_stream</basecompoundref>
+    <includes refid="iq__stream__impl_8h" local="no">iq_stream_impl.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__stream__impl_1a3f55bcaf6773b790d61e22428585e695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::TekRSA::iq_stream_impl::iq_stream_impl</definition>
+        <argsstring>(float in_ctrfreq, float in_reflvl, float in_bw, int in_recLen, int in_devid)</argsstring>
+        <name>iq_stream_impl</name>
+        <param>
+          <type>float</type>
+          <declname>in_ctrfreq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>in_reflvl</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>in_bw</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>in_recLen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>in_devid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_stream_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__stream__impl_1ab211eab4d95e685c45405d5bd7a0629d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::TekRSA::iq_stream_impl::~iq_stream_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~iq_stream_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_stream_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__stream__impl_1acc92b727d81bdbc77967324aca9a29db" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::iq_stream_impl::set_cf</definition>
+        <argsstring>(float in_ctrfreq)</argsstring>
+        <name>set_cf</name>
+        <reimplements refid="classgr_1_1TekRSA_1_1iq__stream_1afb56f10241e573d6de84640510305eb9">set_cf</reimplements>
+        <param>
+          <type>float</type>
+          <declname>in_ctrfreq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_stream_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__stream__impl_1abfc8056fa3edc31a55dd6c9ae8f245e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::iq_stream_impl::set_rl</definition>
+        <argsstring>(float in_reflvl)</argsstring>
+        <name>set_rl</name>
+        <reimplements refid="classgr_1_1TekRSA_1_1iq__stream_1a1fad1b7074a95803c07e27b0da39c564">set_rl</reimplements>
+        <param>
+          <type>float</type>
+          <declname>in_reflvl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_stream_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__stream__impl_1a7b270a6bc59697ff386fb06b2e4b97d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::iq_stream_impl::set_bw</definition>
+        <argsstring>(float in_bw)</argsstring>
+        <name>set_bw</name>
+        <reimplements refid="classgr_1_1TekRSA_1_1iq__stream_1a1231ab3ad4d159a6a6a52b11601d2cd3">set_bw</reimplements>
+        <param>
+          <type>float</type>
+          <declname>in_bw</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_stream_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1iq__stream__impl_1a7a4c1da501890a8073236382b1658bda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::TekRSA::iq_stream_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/lib/iq_stream_impl.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="56">
+        <label>gr::TekRSA::iq_stream_impl</label>
+        <link refid="classgr_1_1TekRSA_1_1iq__stream__impl"/>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>sync_block</label>
+      </node>
+      <node id="57">
+        <label>gr::TekRSA::iq_stream</label>
+        <link refid="classgr_1_1TekRSA_1_1iq__stream"/>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="59">
+        <label>gr::TekRSA::iq_stream_impl</label>
+        <link refid="classgr_1_1TekRSA_1_1iq__stream__impl"/>
+        <childnode refid="60" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>sync_block</label>
+      </node>
+      <node id="60">
+        <label>gr::TekRSA::iq_stream</label>
+        <link refid="classgr_1_1TekRSA_1_1iq__stream"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tekgnu/gnutek/lib/iq_stream_impl.h" line="39" column="1" bodyfile="/home/tekgnu/gnutek/lib/iq_stream_impl.h" bodystart="38" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1TekRSA_1_1iq__stream__impl_1a3f55bcaf6773b790d61e22428585e695" prot="public" virt="non-virtual"><scope>gr::TekRSA::iq_stream_impl</scope><name>iq_stream_impl</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__stream_1ac9d4cd6ad7fbd8b594113df5c782dfbc" prot="public" virt="non-virtual"><scope>gr::TekRSA::iq_stream_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__stream__impl_1a7b270a6bc59697ff386fb06b2e4b97d9" prot="public" virt="virtual"><scope>gr::TekRSA::iq_stream_impl</scope><name>set_bw</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__stream__impl_1acc92b727d81bdbc77967324aca9a29db" prot="public" virt="virtual"><scope>gr::TekRSA::iq_stream_impl</scope><name>set_cf</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__stream__impl_1abfc8056fa3edc31a55dd6c9ae8f245e3" prot="public" virt="virtual"><scope>gr::TekRSA::iq_stream_impl</scope><name>set_rl</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__stream_1afb8564e5766789a0e8ea2183cd45fdd5" prot="public" virt="non-virtual"><scope>gr::TekRSA::iq_stream_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__stream__impl_1a7a4c1da501890a8073236382b1658bda" prot="public" virt="non-virtual"><scope>gr::TekRSA::iq_stream_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1TekRSA_1_1iq__stream__impl_1ab211eab4d95e685c45405d5bd7a0629d" prot="public" virt="non-virtual"><scope>gr::TekRSA::iq_stream_impl</scope><name>~iq_stream_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
