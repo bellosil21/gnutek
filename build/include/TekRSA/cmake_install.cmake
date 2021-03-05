@@ -42,6 +42,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/tekgnu/gnutek/include/TekRSA/api.h"
     "/home/tekgnu/gnutek/include/TekRSA/iq_blk_cmplx.h"
     "/home/tekgnu/gnutek/include/TekRSA/iq_stream.h"
+    "/home/tekgnu/gnutek/include/TekRSA/record_playback.h"
     )
 endif()
 

@@ -32,8 +32,7 @@ namespace gr {
       virtual void set_output_config(RSA_API::IFSOUTDEST fout) = 0;
 
       // Where all the action really happens
-      static sptr make(const char* in_f_base, int in_dsk_md, int in_f_suf,  const char* in_sv_path, 
-		int in_out_cfg, int in_en);
+      static sptr make(const char* in_f_base, int in_dsk_md, int in_f_suf,  const char* in_sv_path, int in_out_cfg, int in_en, int in_dev_id);
     };
 
   } // namespace TekRSA

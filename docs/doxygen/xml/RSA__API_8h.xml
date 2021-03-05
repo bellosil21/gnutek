@@ -4,38 +4,52 @@
     <compoundname>RSA_API.h</compoundname>
     <includes local="no">stdint.h</includes>
     <includes local="no">time.h</includes>
+    <includedby refid="hd__power__impl_8h" local="yes">hd_power_impl.h</includedby>
     <includedby refid="iq__blk__cmplx__impl_8h" local="yes">iq_blk_cmplx_impl.h</includedby>
     <includedby refid="iq__stream__impl_8h" local="yes">iq_stream_impl.h</includedby>
+    <includedby refid="record__playback__impl_8h" local="yes">record_playback_impl.h</includedby>
     <incdepgraph>
-      <node id="96">
+      <node id="81">
         <label>RSA_API.h</label>
         <link refid="RSA__API_8h"/>
-        <childnode refid="97" relation="include">
+        <childnode refid="82" relation="include">
         </childnode>
-        <childnode refid="98" relation="include">
+        <childnode refid="83" relation="include">
         </childnode>
       </node>
-      <node id="97">
+      <node id="82">
         <label>stdint.h</label>
       </node>
-      <node id="98">
+      <node id="83">
         <label>time.h</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="99">
+      <node id="84">
         <label>RSA_API.h</label>
         <link refid="RSA__API_8h"/>
-        <childnode refid="100" relation="include">
+        <childnode refid="85" relation="include">
         </childnode>
-        <childnode refid="101" relation="include">
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
         </childnode>
       </node>
-      <node id="100">
+      <node id="85">
+        <label>hd_power_impl.h</label>
+        <link refid="hd__power__impl_8h"/>
+      </node>
+      <node id="88">
+        <label>record_playback_impl.h</label>
+        <link refid="record__playback__impl_8h"/>
+      </node>
+      <node id="86">
         <label>iq_blk_cmplx_impl.h</label>
         <link refid="iq__blk__cmplx__impl_8h"/>
       </node>
-      <node id="101">
+      <node id="87">
         <label>iq_stream_impl.h</label>
         <link refid="iq__stream__impl_8h"/>
       </node>
@@ -1115,9 +1129,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="59" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="58" bodyend="248"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1adf764cbdea00d65edcd07bb9953ad2b7" prot="public" static="no">
-        <name>@1</name>
-        <enumvalue id="RSA__API_8h_1adf764cbdea00d65edcd07bb9953ad2b7a5cd8dac7e2e66587113cedc030b37aa7" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1a06fc87d81c62e9abb8790b6e5713c55b" prot="public" static="no">
+        <name>@0</name>
+        <enumvalue id="RSA__API_8h_1a06fc87d81c62e9abb8790b6e5713c55ba5cd8dac7e2e66587113cedc030b37aa7" prot="public">
           <name>AcqDataStatus_ADC_OVERRANGE</name>
           <initializer>= 0x1</initializer>
           <briefdescription>
@@ -1125,7 +1139,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1adf764cbdea00d65edcd07bb9953ad2b7abaef2388b125f6c50333c7af16762262" prot="public">
+        <enumvalue id="RSA__API_8h_1a06fc87d81c62e9abb8790b6e5713c55babaef2388b125f6c50333c7af16762262" prot="public">
           <name>AcqDataStatus_REF_OSC_UNLOCK</name>
           <initializer>= 0x2</initializer>
           <briefdescription>
@@ -1133,7 +1147,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1adf764cbdea00d65edcd07bb9953ad2b7aade621e04e356142404dc9b01317dda2" prot="public">
+        <enumvalue id="RSA__API_8h_1a06fc87d81c62e9abb8790b6e5713c55baade621e04e356142404dc9b01317dda2" prot="public">
           <name>AcqDataStatus_LOW_SUPPLY_VOLTAGE</name>
           <initializer>= 0x10</initializer>
           <briefdescription>
@@ -1141,7 +1155,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1adf764cbdea00d65edcd07bb9953ad2b7a652525983a0c15b34dfb5d94f81d0855" prot="public">
+        <enumvalue id="RSA__API_8h_1a06fc87d81c62e9abb8790b6e5713c55ba652525983a0c15b34dfb5d94f81d0855" prot="public">
           <name>AcqDataStatus_ADC_DATA_LOST</name>
           <initializer>= 0x20</initializer>
           <briefdescription>
@@ -1149,7 +1163,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1adf764cbdea00d65edcd07bb9953ad2b7aba873663f5fe2f2cd4527823984dd98a" prot="public">
+        <enumvalue id="RSA__API_8h_1a06fc87d81c62e9abb8790b6e5713c55baba873663f5fe2f2cd4527823984dd98a" prot="public">
           <name>AcqDataStatus_VALID_BITS_MASK</name>
           <initializer>= (AcqDataStatus_ADC_OVERRANGE | AcqDataStatus_REF_OSC_UNLOCK | AcqDataStatus_LOW_SUPPLY_VOLTAGE | AcqDataStatus_ADC_DATA_LOST)</initializer>
           <briefdescription>
@@ -1165,9 +1179,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="292" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="291" bodyend="298"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1a99fb83031ce9923c84392b4e92f956b5" prot="public" static="no">
-        <name>@2</name>
-        <enumvalue id="RSA__API_8h_1a99fb83031ce9923c84392b4e92f956b5a097c780939369504ce4825e319762957" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1adf764cbdea00d65edcd07bb9953ad2b7" prot="public" static="no">
+        <name>@1</name>
+        <enumvalue id="RSA__API_8h_1adf764cbdea00d65edcd07bb9953ad2b7a097c780939369504ce4825e319762957" prot="public">
           <name>DEVSRCH_MAX_NUM_DEVICES</name>
           <initializer>= 20</initializer>
           <briefdescription>
@@ -1175,7 +1189,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a99fb83031ce9923c84392b4e92f956b5a904a7f789b4af037ed9b7edf85979071" prot="public">
+        <enumvalue id="RSA__API_8h_1adf764cbdea00d65edcd07bb9953ad2b7a904a7f789b4af037ed9b7edf85979071" prot="public">
           <name>DEVSRCH_SERIAL_MAX_STRLEN</name>
           <initializer>= 100</initializer>
           <briefdescription>
@@ -1183,7 +1197,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a99fb83031ce9923c84392b4e92f956b5a38c24f4351678a7aeb357a1f9bdec6cf" prot="public">
+        <enumvalue id="RSA__API_8h_1adf764cbdea00d65edcd07bb9953ad2b7a38c24f4351678a7aeb357a1f9bdec6cf" prot="public">
           <name>DEVSRCH_TYPE_MAX_STRLEN</name>
           <initializer>= 20</initializer>
           <briefdescription>
@@ -1199,9 +1213,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="308" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="308" bodyend="308"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1abc6126af1d45847bc59afa0aa3216b04" prot="public" static="no">
-        <name>@3</name>
-        <enumvalue id="RSA__API_8h_1abc6126af1d45847bc59afa0aa3216b04afabadda662d66d5a4110adba47bb3329" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1a99fb83031ce9923c84392b4e92f956b5" prot="public" static="no">
+        <name>@2</name>
+        <enumvalue id="RSA__API_8h_1a99fb83031ce9923c84392b4e92f956b5afabadda662d66d5a4110adba47bb3329" prot="public">
           <name>DEVINFO_MAX_STRLEN</name>
           <initializer>= 100</initializer>
           <briefdescription>
@@ -1487,9 +1501,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="434" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="433" bodyend="438"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1adc29c2ff13d900c2f185ee95427fb06c" prot="public" static="no">
-        <name>@4</name>
-        <enumvalue id="RSA__API_8h_1adc29c2ff13d900c2f185ee95427fb06ca810f94863c5d1fc9a44a297fcf6d319d" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1abc6126af1d45847bc59afa0aa3216b04" prot="public" static="no">
+        <name>@3</name>
+        <enumvalue id="RSA__API_8h_1abc6126af1d45847bc59afa0aa3216b04a810f94863c5d1fc9a44a297fcf6d319d" prot="public">
           <name>DEVEVENT_OVERRANGE</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -1497,7 +1511,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1adc29c2ff13d900c2f185ee95427fb06ca27009078db2db348e747ba2a6698a13a" prot="public">
+        <enumvalue id="RSA__API_8h_1abc6126af1d45847bc59afa0aa3216b04a27009078db2db348e747ba2a6698a13a" prot="public">
           <name>DEVEVENT_TRIGGER</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -1505,7 +1519,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1adc29c2ff13d900c2f185ee95427fb06caab5f4a83205d27ab94648e0403b2094e" prot="public">
+        <enumvalue id="RSA__API_8h_1abc6126af1d45847bc59afa0aa3216b04aab5f4a83205d27ab94648e0403b2094e" prot="public">
           <name>DEVEVENT_1PPS</name>
           <initializer>= 2</initializer>
           <briefdescription>
@@ -1563,9 +1577,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="490" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="490" bodyend="490"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1a61dadd085c1777f559549e05962b2c9e" prot="public" static="no">
-        <name>@5</name>
-        <enumvalue id="RSA__API_8h_1a61dadd085c1777f559549e05962b2c9ea7543b1289fb16a916f21b2d26adaa4fe" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1adc29c2ff13d900c2f185ee95427fb06c" prot="public" static="no">
+        <name>@4</name>
+        <enumvalue id="RSA__API_8h_1adc29c2ff13d900c2f185ee95427fb06ca7543b1289fb16a916f21b2d26adaa4fe" prot="public">
           <name>IQBLK_STATUS_INPUT_OVERRANGE</name>
           <initializer>= (1 &lt;&lt; 0)</initializer>
           <briefdescription>
@@ -1573,7 +1587,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a61dadd085c1777f559549e05962b2c9eac86b3331821745f292c803ac4f149591" prot="public">
+        <enumvalue id="RSA__API_8h_1adc29c2ff13d900c2f185ee95427fb06cac86b3331821745f292c803ac4f149591" prot="public">
           <name>IQBLK_STATUS_FREQREF_UNLOCKED</name>
           <initializer>= (1 &lt;&lt; 1)</initializer>
           <briefdescription>
@@ -1581,7 +1595,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a61dadd085c1777f559549e05962b2c9ea2790ac264ecd1a4904aa1ae87a03d3f1" prot="public">
+        <enumvalue id="RSA__API_8h_1adc29c2ff13d900c2f185ee95427fb06ca2790ac264ecd1a4904aa1ae87a03d3f1" prot="public">
           <name>IQBLK_STATUS_ACQ_SYS_ERROR</name>
           <initializer>= (1 &lt;&lt; 2)</initializer>
           <briefdescription>
@@ -1589,7 +1603,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a61dadd085c1777f559549e05962b2c9ea38f0e21f19a97e612386b8f9d3b8e43a" prot="public">
+        <enumvalue id="RSA__API_8h_1adc29c2ff13d900c2f185ee95427fb06ca38f0e21f19a97e612386b8f9d3b8e43a" prot="public">
           <name>IQBLK_STATUS_DATA_XFER_ERROR</name>
           <initializer>= (1 &lt;&lt; 3)</initializer>
           <briefdescription>
@@ -1881,9 +1895,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="715" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="714" bodyend="720"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1a726ca809ffd3d67ab4b8476646f26635" prot="public" static="no">
-        <name>@6</name>
-        <enumvalue id="RSA__API_8h_1a726ca809ffd3d67ab4b8476646f26635a5e4bc87b008f07c6b666360cdf6fd29e" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1a61dadd085c1777f559549e05962b2c9e" prot="public" static="no">
+        <name>@5</name>
+        <enumvalue id="RSA__API_8h_1a61dadd085c1777f559549e05962b2c9ea5e4bc87b008f07c6b666360cdf6fd29e" prot="public">
           <name>DPX_TRACEIDX_1</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -1891,7 +1905,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a726ca809ffd3d67ab4b8476646f26635a9d1d2664dcdc76e660002ed88494ab35" prot="public">
+        <enumvalue id="RSA__API_8h_1a61dadd085c1777f559549e05962b2c9ea9d1d2664dcdc76e660002ed88494ab35" prot="public">
           <name>DPX_TRACEIDX_2</name>
           <initializer>= 1</initializer>
           <briefdescription>
@@ -1899,7 +1913,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a726ca809ffd3d67ab4b8476646f26635abb03886346116bcfc76d48f903105bac" prot="public">
+        <enumvalue id="RSA__API_8h_1a61dadd085c1777f559549e05962b2c9eabb03886346116bcfc76d48f903105bac" prot="public">
           <name>DPX_TRACEIDX_3</name>
           <initializer>= 2</initializer>
           <briefdescription>
@@ -2048,9 +2062,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="815" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="815" bodyend="818"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1a0411cd49bb5b71852cecd93bcbf0ca2d" prot="public" static="no">
-        <name>@7</name>
-        <enumvalue id="RSA__API_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da26ad15ffc1c43ab85608e721c2ca444a" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1a726ca809ffd3d67ab4b8476646f26635" prot="public" static="no">
+        <name>@6</name>
+        <enumvalue id="RSA__API_8h_1a726ca809ffd3d67ab4b8476646f26635a26ad15ffc1c43ab85608e721c2ca444a" prot="public">
           <name>IFSSDFN_SUFFIX_INCRINDEX_MIN</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -2058,7 +2072,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da01f659d4f5d991443ee266271fe187dc" prot="public">
+        <enumvalue id="RSA__API_8h_1a726ca809ffd3d67ab4b8476646f26635a01f659d4f5d991443ee266271fe187dc" prot="public">
           <name>IFSSDFN_SUFFIX_TIMESTAMP</name>
           <initializer>= -1</initializer>
           <briefdescription>
@@ -2066,7 +2080,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da68277a017fcd1962d5b26dda4b62b669" prot="public">
+        <enumvalue id="RSA__API_8h_1a726ca809ffd3d67ab4b8476646f26635a68277a017fcd1962d5b26dda4b62b669" prot="public">
           <name>IFSSDFN_SUFFIX_NONE</name>
           <initializer>= -2</initializer>
           <briefdescription>
@@ -2082,9 +2096,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="822" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="822" bodyend="822"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1abed82baf7f470b522273a3e37c24c600" prot="public" static="no">
-        <name>@8</name>
-        <enumvalue id="RSA__API_8h_1abed82baf7f470b522273a3e37c24c600a5632b5ef1c56941c8cbd4b7372c00c37" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1a0411cd49bb5b71852cecd93bcbf0ca2d" prot="public" static="no">
+        <name>@7</name>
+        <enumvalue id="RSA__API_8h_1a0411cd49bb5b71852cecd93bcbf0ca2da5632b5ef1c56941c8cbd4b7372c00c37" prot="public">
           <name>IFSTRM_MAXTRIGGERS</name>
           <initializer>= 32</initializer>
           <briefdescription>
@@ -2100,9 +2114,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="838" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="838" bodyend="838"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57" prot="public" static="no">
-        <name>@9</name>
-        <enumvalue id="RSA__API_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a6c3469602daf738112d1c8b64324abeb" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1abed82baf7f470b522273a3e37c24c600" prot="public" static="no">
+        <name>@8</name>
+        <enumvalue id="RSA__API_8h_1abed82baf7f470b522273a3e37c24c600a6c3469602daf738112d1c8b64324abeb" prot="public">
           <name>IFSTRM_STATUS_OVERRANGE</name>
           <initializer>= (1 &lt;&lt; 0)</initializer>
           <briefdescription>
@@ -2110,7 +2124,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57ace417b7629e9d1e88255408b04494e67" prot="public">
+        <enumvalue id="RSA__API_8h_1abed82baf7f470b522273a3e37c24c600ace417b7629e9d1e88255408b04494e67" prot="public">
           <name>IFSTRM_STATUS_XFER_DISCONTINUITY</name>
           <initializer>= (1 &lt;&lt; 1)</initializer>
           <briefdescription>
@@ -2226,9 +2240,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="870" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="870" bodyend="875"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1a385c44f6fb256e5716a2302a5b940388" prot="public" static="no">
-        <name>@10</name>
-        <enumvalue id="RSA__API_8h_1a385c44f6fb256e5716a2302a5b940388a20e9216d1f972948ad7f7dafbe8688e4" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57" prot="public" static="no">
+        <name>@9</name>
+        <enumvalue id="RSA__API_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57a20e9216d1f972948ad7f7dafbe8688e4" prot="public">
           <name>IQSSDFN_SUFFIX_INCRINDEX_MIN</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -2236,7 +2250,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a385c44f6fb256e5716a2302a5b940388af925860467296085722572476b86dabc" prot="public">
+        <enumvalue id="RSA__API_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57af925860467296085722572476b86dabc" prot="public">
           <name>IQSSDFN_SUFFIX_TIMESTAMP</name>
           <initializer>= -1</initializer>
           <briefdescription>
@@ -2244,7 +2258,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a385c44f6fb256e5716a2302a5b940388ad433498daf2d1e30178a51c84f94cee2" prot="public">
+        <enumvalue id="RSA__API_8h_1ab04a0655cd1e3bcac5e8f48c18df1a57ad433498daf2d1e30178a51c84f94cee2" prot="public">
           <name>IQSSDFN_SUFFIX_NONE</name>
           <initializer>= -2</initializer>
           <briefdescription>
@@ -2260,9 +2274,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="883" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="883" bodyend="886"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1abc5c98fcc1211af2b80116dd6e0a035d" prot="public" static="no">
-        <name>@11</name>
-        <enumvalue id="RSA__API_8h_1abc5c98fcc1211af2b80116dd6e0a035dae53e1aee868710a9cecbf0b16f300612" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1a385c44f6fb256e5716a2302a5b940388" prot="public" static="no">
+        <name>@10</name>
+        <enumvalue id="RSA__API_8h_1a385c44f6fb256e5716a2302a5b940388ae53e1aee868710a9cecbf0b16f300612" prot="public">
           <name>IQSTRM_MAXTRIGGERS</name>
           <initializer>= 100</initializer>
           <briefdescription>
@@ -2278,9 +2292,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="894" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="894" bodyend="894"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8" prot="public" static="no">
-        <name>@12</name>
-        <enumvalue id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8af655e79634beb5e31f40600ed6df4314" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1abc5c98fcc1211af2b80116dd6e0a035d" prot="public" static="no">
+        <name>@11</name>
+        <enumvalue id="RSA__API_8h_1abc5c98fcc1211af2b80116dd6e0a035daf655e79634beb5e31f40600ed6df4314" prot="public">
           <name>IQSTRM_STATUS_OVERRANGE</name>
           <initializer>= (1 &lt;&lt; 0)</initializer>
           <briefdescription>
@@ -2288,7 +2302,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8af64c22625a0c7fadbac90a6d2ec22ba2" prot="public">
+        <enumvalue id="RSA__API_8h_1abc5c98fcc1211af2b80116dd6e0a035daf64c22625a0c7fadbac90a6d2ec22ba2" prot="public">
           <name>IQSTRM_STATUS_XFER_DISCONTINUITY</name>
           <initializer>= (1 &lt;&lt; 1)</initializer>
           <briefdescription>
@@ -2296,7 +2310,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8a67e69ff31032fac6546b0c3a3a29a0e5" prot="public">
+        <enumvalue id="RSA__API_8h_1abc5c98fcc1211af2b80116dd6e0a035da67e69ff31032fac6546b0c3a3a29a0e5" prot="public">
           <name>IQSTRM_STATUS_IBUFF75PCT</name>
           <initializer>= (1 &lt;&lt; 2)</initializer>
           <briefdescription>
@@ -2304,7 +2318,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8aa782c62cb0bae6a42f20b08553f2c18f" prot="public">
+        <enumvalue id="RSA__API_8h_1abc5c98fcc1211af2b80116dd6e0a035daa782c62cb0bae6a42f20b08553f2c18f" prot="public">
           <name>IQSTRM_STATUS_IBUFFOVFLOW</name>
           <initializer>= (1 &lt;&lt; 3)</initializer>
           <briefdescription>
@@ -2312,7 +2326,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8a36eca2d13c9c2529656da47494545034" prot="public">
+        <enumvalue id="RSA__API_8h_1abc5c98fcc1211af2b80116dd6e0a035da36eca2d13c9c2529656da47494545034" prot="public">
           <name>IQSTRM_STATUS_OBUFF75PCT</name>
           <initializer>= (1 &lt;&lt; 4)</initializer>
           <briefdescription>
@@ -2320,7 +2334,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8afcef3fac08cfce3baa0203e8d7619805" prot="public">
+        <enumvalue id="RSA__API_8h_1abc5c98fcc1211af2b80116dd6e0a035dafcef3fac08cfce3baa0203e8d7619805" prot="public">
           <name>IQSTRM_STATUS_OBUFFOVFLOW</name>
           <initializer>= (1 &lt;&lt; 5)</initializer>
           <briefdescription>
@@ -2328,7 +2342,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8a0e2364c49aefe09d633f21e623862f2d" prot="public">
+        <enumvalue id="RSA__API_8h_1abc5c98fcc1211af2b80116dd6e0a035da0e2364c49aefe09d633f21e623862f2d" prot="public">
           <name>IQSTRM_STATUS_NONSTICKY_SHIFT</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -2336,7 +2350,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8abbc362117b698bf0c7db70f5f16a349b" prot="public">
+        <enumvalue id="RSA__API_8h_1abc5c98fcc1211af2b80116dd6e0a035dabbc362117b698bf0c7db70f5f16a349b" prot="public">
           <name>IQSTRM_STATUS_STICKY_SHIFT</name>
           <initializer>= 16</initializer>
           <briefdescription>
@@ -2352,9 +2366,9 @@
         </inbodydescription>
         <location file="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" line="895" column="1" bodyfile="/home/tekgnu/gnutek/RSA_API-1.0.0014/RSA_API.h" bodystart="895" bodyend="904"/>
       </memberdef>
-      <memberdef kind="enum" id="RSA__API_8h_1a05589fbab0657f08285ebdfe93f5ec9e" prot="public" static="no">
-        <name>@13</name>
-        <enumvalue id="RSA__API_8h_1a05589fbab0657f08285ebdfe93f5ec9ea762e99e386192d256aae6934dba8fe90" prot="public">
+      <memberdef kind="enum" id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8" prot="public" static="no">
+        <name>@12</name>
+        <enumvalue id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8a762e99e386192d256aae6934dba8fe90" prot="public">
           <name>IQSTRM_FILENAME_DATA_IDX</name>
           <initializer>= 0</initializer>
           <briefdescription>
@@ -2362,7 +2376,7 @@
           <detaileddescription>
           </detaileddescription>
         </enumvalue>
-        <enumvalue id="RSA__API_8h_1a05589fbab0657f08285ebdfe93f5ec9eaf8813996df38fa9d8ae65f2607a9eb0f" prot="public">
+        <enumvalue id="RSA__API_8h_1ac36f475ca5b446f4fde4c9b90bec77c8af8813996df38fa9d8ae65f2607a9eb0f" prot="public">
           <name>IQSTRM_FILENAME_HEADER_IDX</name>
           <initializer>= 1</initializer>
           <briefdescription>

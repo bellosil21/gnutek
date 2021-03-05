@@ -2,10 +2,13 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="namespacegr_1_1TekRSA" kind="namespace" language="C++">
     <compoundname>gr::TekRSA</compoundname>
+    <innerclass refid="classgr_1_1TekRSA_1_1hd__power__impl" prot="public">gr::TekRSA::hd_power_impl</innerclass>
     <innerclass refid="classgr_1_1TekRSA_1_1iq__blk__cmplx" prot="public">gr::TekRSA::iq_blk_cmplx</innerclass>
     <innerclass refid="classgr_1_1TekRSA_1_1iq__blk__cmplx__impl" prot="public">gr::TekRSA::iq_blk_cmplx_impl</innerclass>
     <innerclass refid="classgr_1_1TekRSA_1_1iq__stream" prot="public">gr::TekRSA::iq_stream</innerclass>
     <innerclass refid="classgr_1_1TekRSA_1_1iq__stream__impl" prot="public">gr::TekRSA::iq_stream_impl</innerclass>
+    <innerclass refid="classgr_1_1TekRSA_1_1record__playback" prot="public">gr::TekRSA::record_playback</innerclass>
+    <innerclass refid="classgr_1_1TekRSA_1_1record__playback__impl" prot="public">gr::TekRSA::record_playback_impl</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

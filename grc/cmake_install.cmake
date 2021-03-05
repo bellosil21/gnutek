@@ -41,6 +41,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
     "/home/tekgnu/gnutek/grc/TekRSA_iq_blk_cmplx.xml"
     "/home/tekgnu/gnutek/grc/TekRSA_iq_stream.xml"
+    "/home/tekgnu/gnutek/grc/TekRSA_record_playback.xml"
     )
 endif()
 

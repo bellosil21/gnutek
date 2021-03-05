@@ -2,6 +2,7 @@
 /usr/local/include/TekRSA/api.h
 /usr/local/include/TekRSA/iq_blk_cmplx.h
 /usr/local/include/TekRSA/iq_stream.h
+/usr/local/include/TekRSA/record_playback.h
 /usr/local/lib/libgnuradio-TekRSA.so
 /usr/local/lib/python2.7/dist-packages/TekRSA/_TekRSA_swig.so
 /usr/local/lib/python2.7/dist-packages/TekRSA/TekRSA_swig.py
@@ -14,6 +15,7 @@
 /usr/local/lib/python2.7/dist-packages/TekRSA/__init__.pyo
 /usr/local/share/gnuradio/grc/blocks/TekRSA_iq_blk_cmplx.xml
 /usr/local/share/gnuradio/grc/blocks/TekRSA_iq_stream.xml
+/usr/local/share/gnuradio/grc/blocks/TekRSA_record_playback.xml
 /usr/local/share/doc/gr-TekRSA/xml/classgr_1_1TekRSA_1_1iq__blk__cmplx.xml
 /usr/local/share/doc/gr-TekRSA/xml/iq__blk__cmplx__impl_8h.xml
 /usr/local/share/doc/gr-TekRSA/xml/namespacegr.xml

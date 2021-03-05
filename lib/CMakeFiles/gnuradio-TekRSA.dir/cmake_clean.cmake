@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gnuradio-TekRSA.dir/iq_blk_cmplx_impl.cc.o"
   "CMakeFiles/gnuradio-TekRSA.dir/iq_stream_impl.cc.o"
+  "CMakeFiles/gnuradio-TekRSA.dir/record_playback_impl.cc.o"
   "libgnuradio-TekRSA.pdb"
   "libgnuradio-TekRSA.so"
 )

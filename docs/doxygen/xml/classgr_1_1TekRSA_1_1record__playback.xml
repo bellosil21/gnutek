@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1TekRSA_1_1record__playback" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::TekRSA::record_playback</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1TekRSA_1_1record__playback__impl" prot="public" virt="non-virtual">gr::TekRSA::record_playback_impl</derivedcompoundref>
+    <includes refid="record__playback_8h" local="no">record_playback.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1TekRSA_1_1record__playback_1a182e07ed7a16c763ba5586b6927f9f77" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1TekRSA_1_1record__playback" kindref="compound">record_playback</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;record_playback&gt; gr::TekRSA::record_playback::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/include/TekRSA/record_playback.h" line="26" column="1" bodyfile="/home/tekgnu/gnutek/include/TekRSA/record_playback.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1record__playback_1ab4166dacee4dd15c25257c34528e7837" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::record_playback::set_diskfile_mode</definition>
+        <argsstring>(RSA_API::StreamingMode mode)=0</argsstring>
+        <name>set_diskfile_mode</name>
+        <reimplementedby refid="classgr_1_1TekRSA_1_1record__playback__impl_1ad6c006605061534eab793f7b972a7020">set_diskfile_mode</reimplementedby>
+        <param>
+          <type><ref refid="RSA__API_8h_1aeb8cc1628d953accc1b37dc67aa91c71" kindref="member">RSA_API::StreamingMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/include/TekRSA/record_playback.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1record__playback_1a883832772e93865fb12f9993e1ec88cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::record_playback::set_file_savepath</definition>
+        <argsstring>(const char *path)=0</argsstring>
+        <name>set_file_savepath</name>
+        <reimplementedby refid="classgr_1_1TekRSA_1_1record__playback__impl_1a77132284910e4990c107aa694256cab5">set_file_savepath</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/include/TekRSA/record_playback.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1record__playback_1a900a199c9e473689731ce618e9ad06fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::record_playback::set_file_basename</definition>
+        <argsstring>(const char *base)=0</argsstring>
+        <name>set_file_basename</name>
+        <reimplementedby refid="classgr_1_1TekRSA_1_1record__playback__impl_1a115cc142cc375506cb5e257e494bfb1e">set_file_basename</reimplementedby>
+        <param>
+          <type>const char *</type>
+          <declname>base</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/include/TekRSA/record_playback.h" line="29" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1record__playback_1a18fef099d725f0e8a873f0fe8be5520b" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::record_playback::set_file_suffix</definition>
+        <argsstring>(int suffixCtl)=0</argsstring>
+        <name>set_file_suffix</name>
+        <reimplementedby refid="classgr_1_1TekRSA_1_1record__playback__impl_1abbc96a2c9e82ad69baef630625caef06">set_file_suffix</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>suffixCtl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/include/TekRSA/record_playback.h" line="30" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1record__playback_1aaef1d3ac88c9420dda62f7be0e50b152" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::record_playback::set_enable</definition>
+        <argsstring>(bool enabled)=0</argsstring>
+        <name>set_enable</name>
+        <reimplementedby refid="classgr_1_1TekRSA_1_1record__playback__impl_1ad50c7e0e4d80f2c6406aba426aabebe0">set_enable</reimplementedby>
+        <param>
+          <type><ref refid="RSA__API_8h_1a0ecf26b576b9a54eca656b9be7ba6a06" kindref="member">bool</ref></type>
+          <declname>enabled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/include/TekRSA/record_playback.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1record__playback_1a46621ab74c8d83913b8acbb137e8a4be" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void gr::TekRSA::record_playback::set_output_config</definition>
+        <argsstring>(RSA_API::IFSOUTDEST fout)=0</argsstring>
+        <name>set_output_config</name>
+        <reimplementedby refid="classgr_1_1TekRSA_1_1record__playback__impl_1a0f2e74bde33ceee7491b120aa0e5051a">set_output_config</reimplementedby>
+        <param>
+          <type><ref refid="RSA__API_8h_1a61804a9032dc4e66adb2488c0ca0bf1e" kindref="member">RSA_API::IFSOUTDEST</ref></type>
+          <declname>fout</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/include/TekRSA/record_playback.h" line="32" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1TekRSA_1_1record__playback_1a390190154e45d2031c1b42eb68152a6a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1TekRSA_1_1record__playback_1a182e07ed7a16c763ba5586b6927f9f77" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::TekRSA::record_playback::make</definition>
+        <argsstring>(const char *in_f_base, int in_dsk_md, int in_f_suf, const char *in_sv_path, int in_out_cfg, int in_en, int in_dev_id)</argsstring>
+        <name>make</name>
+        <param>
+          <type>const char *</type>
+          <declname>in_f_base</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>in_dsk_md</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>in_f_suf</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>in_sv_path</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>in_out_cfg</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>in_en</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>in_dev_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/tekgnu/gnutek/include/TekRSA/record_playback.h" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="52">
+        <label>gr::TekRSA::record_playback_impl</label>
+        <link refid="classgr_1_1TekRSA_1_1record__playback__impl"/>
+        <childnode refid="50" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="50">
+        <label>gr::TekRSA::record_playback</label>
+        <link refid="classgr_1_1TekRSA_1_1record__playback"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="54">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="53">
+        <label>gr::TekRSA::record_playback</label>
+        <link refid="classgr_1_1TekRSA_1_1record__playback"/>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/tekgnu/gnutek/include/TekRSA/record_playback.h" line="23" column="1" bodyfile="/home/tekgnu/gnutek/include/TekRSA/record_playback.h" bodystart="22" bodyend="36"/>
+    <listofallmembers>
+      <member refid="classgr_1_1TekRSA_1_1record__playback_1a390190154e45d2031c1b42eb68152a6a" prot="public" virt="non-virtual"><scope>gr::TekRSA::record_playback</scope><name>make</name></member>
+      <member refid="classgr_1_1TekRSA_1_1record__playback_1ab4166dacee4dd15c25257c34528e7837" prot="public" virt="pure-virtual"><scope>gr::TekRSA::record_playback</scope><name>set_diskfile_mode</name></member>
+      <member refid="classgr_1_1TekRSA_1_1record__playback_1aaef1d3ac88c9420dda62f7be0e50b152" prot="public" virt="pure-virtual"><scope>gr::TekRSA::record_playback</scope><name>set_enable</name></member>
+      <member refid="classgr_1_1TekRSA_1_1record__playback_1a900a199c9e473689731ce618e9ad06fe" prot="public" virt="pure-virtual"><scope>gr::TekRSA::record_playback</scope><name>set_file_basename</name></member>
+      <member refid="classgr_1_1TekRSA_1_1record__playback_1a883832772e93865fb12f9993e1ec88cb" prot="public" virt="pure-virtual"><scope>gr::TekRSA::record_playback</scope><name>set_file_savepath</name></member>
+      <member refid="classgr_1_1TekRSA_1_1record__playback_1a18fef099d725f0e8a873f0fe8be5520b" prot="public" virt="pure-virtual"><scope>gr::TekRSA::record_playback</scope><name>set_file_suffix</name></member>
+      <member refid="classgr_1_1TekRSA_1_1record__playback_1a46621ab74c8d83913b8acbb137e8a4be" prot="public" virt="pure-virtual"><scope>gr::TekRSA::record_playback</scope><name>set_output_config</name></member>
+      <member refid="classgr_1_1TekRSA_1_1record__playback_1a182e07ed7a16c763ba5586b6927f9f77" prot="public" virt="non-virtual"><scope>gr::TekRSA::record_playback</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

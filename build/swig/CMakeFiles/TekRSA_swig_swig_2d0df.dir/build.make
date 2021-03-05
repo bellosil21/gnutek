@@ -58,6 +58,7 @@ include swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/progress.make
 include swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/flags.make
 
 swig/TekRSA_swig_swig_2d0df.cpp: ../swig/TekRSA_swig.i
+swig/TekRSA_swig_swig_2d0df.cpp: swig/TekRSA_swig_doc.i
 swig/TekRSA_swig_swig_2d0df.cpp: ../swig/TekRSA_swig.i
 swig/TekRSA_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/gr_logger.i
 swig/TekRSA_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/block_gateway.i
@@ -91,14 +92,23 @@ swig/TekRSA_swig_swig_2d0df.cpp: /usr/include/gnuradio/swig/block_detail.i
 swig/TekRSA_swig_swig_2d0df.cpp: swig/TekRSA_swig.tag
 	cd /home/tekgnu/gnutek/build/swig && /usr/bin/cmake -E copy /home/tekgnu/gnutek/build/swig/TekRSA_swig_swig_2d0df.cpp.in /home/tekgnu/gnutek/build/swig/TekRSA_swig_swig_2d0df.cpp
 
+swig/TekRSA_swig_doc.i: swig/TekRSA_swig_doc_swig_docs/xml/index.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tekgnu/gnutek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating python docstrings for TekRSA_swig_doc"
+	cd /home/tekgnu/gnutek/docs/doxygen && /usr/bin/python2 -B /home/tekgnu/gnutek/docs/doxygen/swig_doc.py /home/tekgnu/gnutek/build/swig/TekRSA_swig_doc_swig_docs/xml /home/tekgnu/gnutek/build/swig/TekRSA_swig_doc.i
+
 swig/TekRSA_swig.tag: swig/_TekRSA_swig_swig_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tekgnu/gnutek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating TekRSA_swig.tag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tekgnu/gnutek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating TekRSA_swig.tag"
 	cd /home/tekgnu/gnutek/build/swig && ./_TekRSA_swig_swig_tag
 	cd /home/tekgnu/gnutek/build/swig && /usr/bin/cmake -E touch /home/tekgnu/gnutek/build/swig/TekRSA_swig.tag
 
+swig/TekRSA_swig_doc_swig_docs/xml/index.xml: swig/_TekRSA_swig_doc_tag
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/tekgnu/gnutek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating doxygen xml for TekRSA_swig_doc docs"
+	cd /home/tekgnu/gnutek/build/swig && ./_TekRSA_swig_doc_tag
+	cd /home/tekgnu/gnutek/build/swig && /usr/bin/doxygen /home/tekgnu/gnutek/build/swig/TekRSA_swig_doc_swig_docs/Doxyfile
+
 swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/TekRSA_swig_swig_2d0df.cpp.o: swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/flags.make
 swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/TekRSA_swig_swig_2d0df.cpp.o: swig/TekRSA_swig_swig_2d0df.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tekgnu/gnutek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/TekRSA_swig_swig_2d0df.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tekgnu/gnutek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/TekRSA_swig_swig_2d0df.cpp.o"
 	cd /home/tekgnu/gnutek/build/swig && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TekRSA_swig_swig_2d0df.dir/TekRSA_swig_swig_2d0df.cpp.o -c /home/tekgnu/gnutek/build/swig/TekRSA_swig_swig_2d0df.cpp
 
 swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/TekRSA_swig_swig_2d0df.cpp.i: cmake_force
@@ -130,7 +140,7 @@ TekRSA_swig_swig_2d0df_EXTERNAL_OBJECTS =
 swig/TekRSA_swig_swig_2d0df: swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/TekRSA_swig_swig_2d0df.cpp.o
 swig/TekRSA_swig_swig_2d0df: swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/build.make
 swig/TekRSA_swig_swig_2d0df: swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tekgnu/gnutek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable TekRSA_swig_swig_2d0df"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tekgnu/gnutek/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable TekRSA_swig_swig_2d0df"
 	cd /home/tekgnu/gnutek/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TekRSA_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
 	cd /home/tekgnu/gnutek/build/swig && /usr/bin/cmake -E make_directory /home/tekgnu/gnutek/build/swig
@@ -150,7 +160,9 @@ swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/clean:
 .PHONY : swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/clean
 
 swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/depend: swig/TekRSA_swig_swig_2d0df.cpp
+swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/depend: swig/TekRSA_swig_doc.i
 swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/depend: swig/TekRSA_swig.tag
+swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/depend: swig/TekRSA_swig_doc_swig_docs/xml/index.xml
 	cd /home/tekgnu/gnutek/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tekgnu/gnutek /home/tekgnu/gnutek/swig /home/tekgnu/gnutek/build /home/tekgnu/gnutek/build/swig /home/tekgnu/gnutek/build/swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/TekRSA_swig_swig_2d0df.dir/depend
 

@@ -19,5 +19,6 @@
 
 install(FILES
     TekRSA_iq_blk_cmplx.xml
-    TekRSA_iq_stream.xml DESTINATION share/gnuradio/grc/blocks
+    TekRSA_iq_stream.xml
+    TekRSA_record_playback.xml DESTINATION share/gnuradio/grc/blocks
 )

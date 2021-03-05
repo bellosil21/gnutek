@@ -2,12 +2,11 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="namespacegr" kind="namespace" language="C++">
     <compoundname>gr</compoundname>
-    <innernamespace refid="namespacegr_1_1rds">gr::rds</innernamespace>
     <innernamespace refid="namespacegr_1_1TekRSA">gr::TekRSA</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/tekgnu/gnutek/examples/gr-rds/include/rds/decoder.h" line="23" column="1"/>
+    <location file="/home/tekgnu/gnutek/include/TekRSA/iq_blk_cmplx.h" line="28" column="1"/>
   </compounddef>
 </doxygen>

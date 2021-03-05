@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Thu Feb 25 11:08:25 2021
+# Generated: Wed Mar  3 16:52:59 2021
 ##################################################
 
 
@@ -45,6 +45,7 @@ class top_block(grc_wxgui.top_block_gui):
         # Variables
         ##################################################
         self.sr = sr = 3.5e6
+        self.variable_chooser_0 = variable_chooser_0 = 2e6
         self.tw = tw = 10000
         self.samp_rate = samp_rate = sr
         self.rl = rl = -20
@@ -105,6 +106,15 @@ class top_block(grc_wxgui.top_block_gui):
         	win=window.hamming,
         )
         self.Add(self.wxgui_fftsink2_0.win)
+        self._variable_chooser_0_chooser = forms.drop_down(
+        	parent=self.GetWin(),
+        	value=self.variable_chooser_0,
+        	callback=self.set_variable_chooser_0,
+        	label='bw',
+        	choices=[1e6, 2e6, 3e6, 4e6, 5e6, 6e6, 7e6, 8e6, 9e6, 10e6],
+        	labels=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+        )
+        self.Add(self._variable_chooser_0_chooser)
         self.rational_resampler_xxx_0 = filter.rational_resampler_fff(
                 interpolation=441,
                 decimation=2500,
@@ -142,6 +152,13 @@ class top_block(grc_wxgui.top_block_gui):
     def set_sr(self, sr):
         self.sr = sr
         self.set_samp_rate(self.sr)
+
+    def get_variable_chooser_0(self):
+        return self.variable_chooser_0
+
+    def set_variable_chooser_0(self, variable_chooser_0):
+        self.variable_chooser_0 = variable_chooser_0
+        self._variable_chooser_0_chooser.set_value(self.variable_chooser_0)
 
     def get_tw(self):
         return self.tw

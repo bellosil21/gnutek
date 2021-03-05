@@ -51,3 +51,33 @@ Params: (in_bw)"
 To avoid accidental use of raw pointers, TekRSA::iq_stream's constructor is in a private implementation class. TekRSA::iq_stream::make is the public interface for creating new instances.
 
 Params: (in_ctrfreq, in_reflvl, in_bw, in_recLen, in_devid)"
+
+
+
+%feature("docstring") gr::TekRSA::record_playback::set_diskfile_mode "
+
+Params: (mode)"
+
+%feature("docstring") gr::TekRSA::record_playback::set_file_savepath "
+
+Params: (path)"
+
+%feature("docstring") gr::TekRSA::record_playback::set_file_basename "
+
+Params: (base)"
+
+%feature("docstring") gr::TekRSA::record_playback::set_file_suffix "
+
+Params: (suffixCtl)"
+
+%feature("docstring") gr::TekRSA::record_playback::set_enable "
+
+Params: (enabled)"
+
+%feature("docstring") gr::TekRSA::record_playback::set_output_config "
+
+Params: (fout)"
+
+%feature("docstring") gr::TekRSA::record_playback::make "
+
+Params: (in_f_base, in_dsk_md, in_f_suf, in_sv_path, in_out_cfg, in_en, in_dev_id)"

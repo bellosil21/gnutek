@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="record__playback_8h" kind="file" language="C++">
+    <compoundname>record_playback.h</compoundname>
+    <includes refid="api_8h" local="no">TekRSA/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="record__playback__impl_8h" local="no">record_playback_impl.h</includedby>
+    <incdepgraph>
+      <node id="64">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="63">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="62">
+        <label>TekRSA/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="63" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>record_playback.h</label>
+        <link refid="record__playback_8h"/>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="66">
+        <label>record_playback_impl.h</label>
+        <link refid="record__playback__impl_8h"/>
+      </node>
+      <node id="65">
+        <label>record_playback.h</label>
+        <link refid="record__playback_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1TekRSA_1_1record__playback" prot="public">gr::TekRSA::record_playback</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1TekRSA">gr::TekRSA</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/include/TekRSA/record_playback.h"/>
+  </compounddef>
+</doxygen>

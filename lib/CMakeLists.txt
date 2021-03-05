@@ -28,6 +28,7 @@ link_directories(${Boost_LIBRARY_DIRS})
 list(APPEND TekRSA_sources
     iq_blk_cmplx_impl.cc
     iq_stream_impl.cc
+    record_playback_impl.cc
 )
 
 set(TekRSA_sources "${TekRSA_sources}" PARENT_SCOPE)

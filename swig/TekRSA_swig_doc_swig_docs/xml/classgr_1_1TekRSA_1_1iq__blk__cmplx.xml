@@ -129,25 +129,25 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="1">
-        <label>gr::sync_block</label>
-      </node>
       <node id="0">
         <label>gr::TekRSA::iq_blk_cmplx</label>
         <link refid="classgr_1_1TekRSA_1_1iq__blk__cmplx"/>
         <childnode refid="1" relation="public-inheritance">
         </childnode>
       </node>
+      <node id="1">
+        <label>sync_block</label>
+      </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="3">
-        <label>gr::sync_block</label>
-      </node>
       <node id="2">
         <label>gr::TekRSA::iq_blk_cmplx</label>
         <link refid="classgr_1_1TekRSA_1_1iq__blk__cmplx"/>
         <childnode refid="3" relation="public-inheritance">
         </childnode>
+      </node>
+      <node id="3">
+        <label>sync_block</label>
       </node>
     </collaborationgraph>
     <location file="/home/tekgnu/gnutek/include/TekRSA/iq_blk_cmplx.h" line="37" column="1" bodyfile="/home/tekgnu/gnutek/include/TekRSA/iq_blk_cmplx.h" bodystart="36" bodyend="54"/>

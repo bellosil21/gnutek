@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="classgr_1_1TekRSA_1_1hd__power__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::TekRSA::hd_power_impl</compoundname>
+    <includes refid="hd__power__impl_8h" local="no">hd_power_impl.h</includes>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/tekgnu/gnutek/lib/hd_power_impl.h" line="25" column="1" bodyfile="/home/tekgnu/gnutek/lib/hd_power_impl.h" bodystart="24" bodyend="27"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

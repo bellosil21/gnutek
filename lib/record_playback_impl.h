@@ -31,8 +31,7 @@ namespace gr {
     {
 
      public:
-      record_playback_impl(const char* in_f_base, int in_dsk_md, int in_f_suf,  const char* in_sv_path, 
-		int in_out_cfg, int in_en);
+      record_playback_impl(const char* in_f_base, int in_dsk_md, int in_f_suf,  const char* in_sv_path, int in_out_cfg, int in_en, int in_dev_id);
       ~record_playback_impl();
       virtual void set_diskfile_mode(RSA_API::StreamingMode mode);
       virtual void set_file_savepath(const char *path);
@@ -50,5 +49,5 @@ namespace gr {
   } // namespace TekRSA
 } // namespace gr
 
-#endif /* INCLUDED_TEKRSA_RECORD_PLAYBACK_H */
+#endif /* INCLUDED_TEKRSA_RECORD_PLAYBACK_IMPL_H */
 

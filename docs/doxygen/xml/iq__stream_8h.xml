@@ -2,39 +2,39 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
   <compounddef id="iq__stream_8h" kind="file" language="C++">
     <compoundname>iq_stream.h</compoundname>
-    <includes refid="include_2TekRSA_2api_8h" local="no">TekRSA/api.h</includes>
+    <includes refid="api_8h" local="no">TekRSA/api.h</includes>
     <includes local="no">gnuradio/sync_block.h</includes>
     <includedby refid="iq__stream__impl_8h" local="no">iq_stream_impl.h</includedby>
     <incdepgraph>
-      <node id="64">
+      <node id="42">
         <label>gnuradio/sync_block.h</label>
       </node>
-      <node id="63">
+      <node id="41">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="62">
+      <node id="40">
         <label>TekRSA/api.h</label>
-        <link refid="include_2TekRSA_2api_8h"/>
-        <childnode refid="63" relation="include">
+        <link refid="api_8h"/>
+        <childnode refid="41" relation="include">
         </childnode>
       </node>
-      <node id="61">
+      <node id="39">
         <label>iq_stream.h</label>
         <link refid="iq__stream_8h"/>
-        <childnode refid="62" relation="include">
+        <childnode refid="40" relation="include">
         </childnode>
-        <childnode refid="64" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="65">
+      <node id="43">
         <label>iq_stream.h</label>
         <link refid="iq__stream_8h"/>
-        <childnode refid="66" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="66">
+      <node id="44">
         <label>iq_stream_impl.h</label>
         <link refid="iq__stream__impl_8h"/>
       </node>

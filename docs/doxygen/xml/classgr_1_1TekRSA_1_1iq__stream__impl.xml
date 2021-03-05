@@ -136,36 +136,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="56">
+      <node id="36">
         <label>gr::TekRSA::iq_stream_impl</label>
         <link refid="classgr_1_1TekRSA_1_1iq__stream__impl"/>
-        <childnode refid="57" relation="public-inheritance">
+        <childnode refid="37" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="58">
+      <node id="38">
         <label>sync_block</label>
       </node>
-      <node id="57">
+      <node id="37">
         <label>gr::TekRSA::iq_stream</label>
         <link refid="classgr_1_1TekRSA_1_1iq__stream"/>
-        <childnode refid="58" relation="public-inheritance">
+        <childnode refid="38" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="59">
+      <node id="39">
         <label>gr::TekRSA::iq_stream_impl</label>
         <link refid="classgr_1_1TekRSA_1_1iq__stream__impl"/>
-        <childnode refid="60" relation="public-inheritance">
+        <childnode refid="40" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="61">
+      <node id="41">
         <label>sync_block</label>
       </node>
-      <node id="60">
+      <node id="40">
         <label>gr::TekRSA::iq_stream</label>
         <link refid="classgr_1_1TekRSA_1_1iq__stream"/>
-        <childnode refid="61" relation="public-inheritance">
+        <childnode refid="41" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

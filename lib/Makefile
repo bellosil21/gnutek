@@ -305,6 +305,33 @@ qa_iq_blk_cmplx.cc.s:
 	cd /home/tekgnu/gnutek && $(MAKE) -f lib/CMakeFiles/test-TekRSA.dir/build.make lib/CMakeFiles/test-TekRSA.dir/qa_iq_blk_cmplx.cc.s
 .PHONY : qa_iq_blk_cmplx.cc.s
 
+record_playback_impl.o: record_playback_impl.cc.o
+
+.PHONY : record_playback_impl.o
+
+# target to build an object file
+record_playback_impl.cc.o:
+	cd /home/tekgnu/gnutek && $(MAKE) -f lib/CMakeFiles/gnuradio-TekRSA.dir/build.make lib/CMakeFiles/gnuradio-TekRSA.dir/record_playback_impl.cc.o
+.PHONY : record_playback_impl.cc.o
+
+record_playback_impl.i: record_playback_impl.cc.i
+
+.PHONY : record_playback_impl.i
+
+# target to preprocess a source file
+record_playback_impl.cc.i:
+	cd /home/tekgnu/gnutek && $(MAKE) -f lib/CMakeFiles/gnuradio-TekRSA.dir/build.make lib/CMakeFiles/gnuradio-TekRSA.dir/record_playback_impl.cc.i
+.PHONY : record_playback_impl.cc.i
+
+record_playback_impl.s: record_playback_impl.cc.s
+
+.PHONY : record_playback_impl.s
+
+# target to generate assembly for a file
+record_playback_impl.cc.s:
+	cd /home/tekgnu/gnutek && $(MAKE) -f lib/CMakeFiles/gnuradio-TekRSA.dir/build.make lib/CMakeFiles/gnuradio-TekRSA.dir/record_playback_impl.cc.s
+.PHONY : record_playback_impl.cc.s
+
 test_TekRSA.o: test_TekRSA.cc.o
 
 .PHONY : test_TekRSA.o
@@ -359,6 +386,9 @@ help:
 	@echo "... qa_iq_blk_cmplx.o"
 	@echo "... qa_iq_blk_cmplx.i"
 	@echo "... qa_iq_blk_cmplx.s"
+	@echo "... record_playback_impl.o"
+	@echo "... record_playback_impl.i"
+	@echo "... record_playback_impl.s"
 	@echo "... test_TekRSA.o"
 	@echo "... test_TekRSA.i"
 	@echo "... test_TekRSA.s"

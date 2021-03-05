@@ -23,5 +23,6 @@
 install(FILES
     api.h
     iq_blk_cmplx.h
-    iq_stream.h DESTINATION include/TekRSA
+    iq_stream.h 
+    record_playback.h DESTINATION include/TekRSA
 )

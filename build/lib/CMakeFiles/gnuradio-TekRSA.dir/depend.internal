@@ -13,3 +13,9 @@ lib/CMakeFiles/gnuradio-TekRSA.dir/iq_stream_impl.cc.o
  /home/tekgnu/gnutek/lib/iq_stream_impl.cc
  /home/tekgnu/gnutek/lib/iq_stream_impl.h
  /opt/include/RSA_API.h
+lib/CMakeFiles/gnuradio-TekRSA.dir/record_playback_impl.cc.o
+ ../include/TekRSA/api.h
+ ../include/TekRSA/record_playback.h
+ /home/tekgnu/gnutek/lib/record_playback_impl.cc
+ /home/tekgnu/gnutek/lib/record_playback_impl.h
+ /opt/include/RSA_API.h

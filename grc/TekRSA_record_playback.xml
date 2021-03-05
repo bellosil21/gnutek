@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<block>
+  <name>Tektronix RSA Record / Playback Options</name>
+  <key>TekRSA_record_playback</key>
+  <category>Tektronix RSA</category>
+  <import>import TekRSA</import>
+  <make>TekRSA.record_playback($f_base, $dsk_md, $f_suf, $sv_path, $out_cfg, $en, $dev_id)</make>
+  <callback>set_diskfile_mode($dsk_md)</callback>
+  <callback>set_file_savepath($sv_path)</callback>
+  <callback>set_file_basename($f_base);</callback>
+  <callback>set_file_suffix($f_suf)</callback>
+  <callback>set_enable($en)</callback>
+  <callback>set_output_config($out_cfg)</callback>
+
+
+  <param>
+    <name>File Name Base</name>
+    <key>f_base</key>
+    <value>0</value>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Set Diskfile Mode</name>
+    <key>dsk_md</key>
+    <value>1</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Set File Suffix</name>
+    <key>f_suf</key>
+    <value>0</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name> Savepath </name>
+    <key>sv_path</key>
+    <value>0</value>
+    <type>string</type>
+  </param>
+  <param>
+    <name>Set Enabled</name>
+    <key>en</key>
+    <value>1</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Output config</name>
+    <key>out_cfg</key>
+    <value>0</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Device ID</name>
+    <key>dev_id</key>
+    <value>0</value>
+    <type>int</type>
+  </param>
+</block>
